@@ -3,10 +3,10 @@ package inmemory
 import (
 	"testing"
 
-	"github.com/Tanibox/tania-core/src/assets/storage"
 	"github.com/gofrs/uuid"
+	"github.com/mir-one/localfarm/src/assets/storage"
 
-	"github.com/Tanibox/tania-core/src/assets/domain"
+	"github.com/mir-one/localfarm/src/assets/domain"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

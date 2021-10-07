@@ -6,12 +6,12 @@ import (
 	"sort"
 	"time"
 
-	"github.com/Tanibox/tania-core/src/growth/query"
-	"github.com/Tanibox/tania-core/src/growth/storage"
 	"github.com/gofrs/uuid"
+	"github.com/mir-one/localfarm/src/growth/query"
+	"github.com/mir-one/localfarm/src/growth/storage"
 
-	"github.com/Tanibox/tania-core/src/growth/domain"
 	"github.com/labstack/echo/v4"
+	"github.com/mir-one/localfarm/src/growth/domain"
 )
 
 type CropListInArea struct {

@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Tanibox/tania-core/src/user/domain"
 	"github.com/labstack/echo/v4"
+	"github.com/mir-one/localfarm/src/user/domain"
 	log "github.com/sirupsen/logrus"
 )
 

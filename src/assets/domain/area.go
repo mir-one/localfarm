@@ -3,8 +3,8 @@ package domain
 import (
 	"time"
 
-	"github.com/Tanibox/tania-core/src/helper/validationhelper"
 	"github.com/gofrs/uuid"
+	"github.com/mir-one/localfarm/src/helper/validationhelper"
 )
 
 type Area struct {

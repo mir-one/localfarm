@@ -1,9 +1,9 @@
 package service
 
 import (
-	"github.com/Tanibox/tania-core/src/tasks/domain"
-	"github.com/Tanibox/tania-core/src/tasks/query"
 	"github.com/gofrs/uuid"
+	"github.com/mir-one/localfarm/src/tasks/domain"
+	"github.com/mir-one/localfarm/src/tasks/query"
 )
 
 // TaskService handles task behaviours that needs external interaction to be worked

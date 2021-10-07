@@ -4,10 +4,10 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/Tanibox/tania-core/src/tasks/domain"
-	"github.com/Tanibox/tania-core/src/tasks/storage"
 	"github.com/gofrs/uuid"
 	"github.com/labstack/echo/v4"
+	"github.com/mir-one/localfarm/src/tasks/domain"
+	"github.com/mir-one/localfarm/src/tasks/storage"
 )
 
 func (s *TaskServer) SaveToTaskReadModel(event interface{}) error {

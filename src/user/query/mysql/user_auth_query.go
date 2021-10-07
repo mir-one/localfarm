@@ -4,9 +4,9 @@ import (
 	"database/sql"
 	"time"
 
-	"github.com/Tanibox/tania-core/src/user/query"
-	"github.com/Tanibox/tania-core/src/user/storage"
 	"github.com/gofrs/uuid"
+	"github.com/mir-one/localfarm/src/user/query"
+	"github.com/mir-one/localfarm/src/user/storage"
 )
 
 type UserAuthQueryMysql struct {

@@ -5,10 +5,10 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/Tanibox/tania-core/src/growth/decoder"
-	"github.com/Tanibox/tania-core/src/growth/repository"
-	"github.com/Tanibox/tania-core/src/helper/structhelper"
 	"github.com/gofrs/uuid"
+	"github.com/mir-one/localfarm/src/growth/decoder"
+	"github.com/mir-one/localfarm/src/growth/repository"
+	"github.com/mir-one/localfarm/src/helper/structhelper"
 )
 
 type CropEventRepositorySqlite struct {

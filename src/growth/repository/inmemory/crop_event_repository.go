@@ -1,9 +1,9 @@
 package inmemory
 
 import (
-	"github.com/Tanibox/tania-core/src/growth/repository"
-	"github.com/Tanibox/tania-core/src/growth/storage"
 	"github.com/gofrs/uuid"
+	"github.com/mir-one/localfarm/src/growth/repository"
+	"github.com/mir-one/localfarm/src/growth/storage"
 )
 
 type CropEventRepositoryInMemory struct {

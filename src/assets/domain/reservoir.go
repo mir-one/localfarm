@@ -3,8 +3,8 @@ package domain
 import (
 	"time"
 
-	"github.com/Tanibox/tania-core/src/helper/validationhelper"
 	"github.com/gofrs/uuid"
+	"github.com/mir-one/localfarm/src/helper/validationhelper"
 )
 
 // Reservoir is entity that provides the operation that farm owner or his/her staff

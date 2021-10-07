@@ -5,11 +5,11 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/Tanibox/tania-core/src/tasks/decoder"
+	"github.com/mir-one/localfarm/src/tasks/decoder"
 
-	"github.com/Tanibox/tania-core/src/tasks/query"
-	"github.com/Tanibox/tania-core/src/tasks/storage"
 	"github.com/gofrs/uuid"
+	"github.com/mir-one/localfarm/src/tasks/query"
+	"github.com/mir-one/localfarm/src/tasks/storage"
 )
 
 type TaskEventQuerySqlite struct {

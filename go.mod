@@ -1,4 +1,4 @@
-module github.com/Tanibox/tania-core
+module github.com/mir-one/localfarm
 
 go 1.16
 

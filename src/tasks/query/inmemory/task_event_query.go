@@ -3,9 +3,9 @@ package inmemory
 import (
 	"sort"
 
-	"github.com/Tanibox/tania-core/src/tasks/query"
-	"github.com/Tanibox/tania-core/src/tasks/storage"
 	"github.com/gofrs/uuid"
+	"github.com/mir-one/localfarm/src/tasks/query"
+	"github.com/mir-one/localfarm/src/tasks/storage"
 )
 
 type TaskEventQueryInMemory struct {

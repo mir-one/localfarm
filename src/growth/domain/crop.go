@@ -4,9 +4,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Tanibox/tania-core/src/growth/query"
-	"github.com/Tanibox/tania-core/src/helper/stringhelper"
 	"github.com/gofrs/uuid"
+	"github.com/mir-one/localfarm/src/growth/query"
+	"github.com/mir-one/localfarm/src/helper/stringhelper"
 )
 
 type Crop struct {

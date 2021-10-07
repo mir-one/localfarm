@@ -1,9 +1,9 @@
 package inmemory
 
 import (
-	"github.com/Tanibox/tania-core/src/growth/storage"
-	"github.com/Tanibox/tania-core/src/tasks/query"
 	"github.com/gofrs/uuid"
+	"github.com/mir-one/localfarm/src/growth/storage"
+	"github.com/mir-one/localfarm/src/tasks/query"
 )
 
 type CropQueryInMemory struct {

@@ -5,12 +5,12 @@ import (
 	"sort"
 	"time"
 
-	"github.com/Tanibox/tania-core/src/growth/domain"
-	"github.com/Tanibox/tania-core/src/growth/query"
-	"github.com/Tanibox/tania-core/src/growth/storage"
-	taskevents "github.com/Tanibox/tania-core/src/tasks/domain"
 	"github.com/gofrs/uuid"
 	"github.com/labstack/gommon/log"
+	"github.com/mir-one/localfarm/src/growth/domain"
+	"github.com/mir-one/localfarm/src/growth/query"
+	"github.com/mir-one/localfarm/src/growth/storage"
+	taskevents "github.com/mir-one/localfarm/src/tasks/domain"
 )
 
 func (s *GrowthServer) SaveToCropReadModel(event interface{}) error {

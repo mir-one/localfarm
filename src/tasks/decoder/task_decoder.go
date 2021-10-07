@@ -5,8 +5,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/Tanibox/tania-core/src/tasks/domain"
 	"github.com/gofrs/uuid"
+	"github.com/mir-one/localfarm/src/tasks/domain"
 	"github.com/mitchellh/mapstructure"
 )
 

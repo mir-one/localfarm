@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/Tanibox/tania-core/src/growth/domain"
-	"github.com/Tanibox/tania-core/src/growth/query"
 	"github.com/gofrs/uuid"
+	. "github.com/mir-one/localfarm/src/growth/domain"
+	"github.com/mir-one/localfarm/src/growth/query"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

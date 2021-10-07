@@ -4,8 +4,8 @@ import (
 	"database/sql"
 	"time"
 
-	"github.com/Tanibox/tania-core/src/assets/repository"
-	"github.com/Tanibox/tania-core/src/assets/storage"
+	"github.com/mir-one/localfarm/src/assets/repository"
+	"github.com/mir-one/localfarm/src/assets/storage"
 )
 
 type FarmReadRepositorySqlite struct {

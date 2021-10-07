@@ -1,8 +1,8 @@
 package server
 
 import (
-	"github.com/Tanibox/tania-core/src/user/domain"
-	"github.com/Tanibox/tania-core/src/user/storage"
+	"github.com/mir-one/localfarm/src/user/domain"
+	"github.com/mir-one/localfarm/src/user/storage"
 )
 
 func MapToUserRead(user *domain.User) storage.UserRead {

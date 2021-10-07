@@ -1,10 +1,10 @@
 package inmemory
 
 import (
-	assetsdomain "github.com/Tanibox/tania-core/src/assets/domain"
-	"github.com/Tanibox/tania-core/src/assets/storage"
-	"github.com/Tanibox/tania-core/src/growth/query"
 	"github.com/gofrs/uuid"
+	assetsdomain "github.com/mir-one/localfarm/src/assets/domain"
+	"github.com/mir-one/localfarm/src/assets/storage"
+	"github.com/mir-one/localfarm/src/growth/query"
 )
 
 type MaterialReadQueryInMemory struct {

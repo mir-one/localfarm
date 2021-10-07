@@ -3,10 +3,10 @@ package inmemory
 import (
 	"errors"
 
-	"github.com/Tanibox/tania-core/src/growth/query"
-	tasksdomain "github.com/Tanibox/tania-core/src/tasks/domain"
-	"github.com/Tanibox/tania-core/src/tasks/storage"
 	"github.com/gofrs/uuid"
+	"github.com/mir-one/localfarm/src/growth/query"
+	tasksdomain "github.com/mir-one/localfarm/src/tasks/domain"
+	"github.com/mir-one/localfarm/src/tasks/storage"
 )
 
 type TaskReadQueryInMemory struct {

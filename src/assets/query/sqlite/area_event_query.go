@@ -5,10 +5,10 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/Tanibox/tania-core/src/assets/decoder"
-	"github.com/Tanibox/tania-core/src/assets/query"
-	"github.com/Tanibox/tania-core/src/assets/storage"
 	"github.com/gofrs/uuid"
+	"github.com/mir-one/localfarm/src/assets/decoder"
+	"github.com/mir-one/localfarm/src/assets/query"
+	"github.com/mir-one/localfarm/src/assets/storage"
 )
 
 type AreaEventQuerySqlite struct {

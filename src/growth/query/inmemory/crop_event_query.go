@@ -3,9 +3,9 @@ package inmemory
 import (
 	"sort"
 
-	"github.com/Tanibox/tania-core/src/growth/query"
-	"github.com/Tanibox/tania-core/src/growth/storage"
 	"github.com/gofrs/uuid"
+	"github.com/mir-one/localfarm/src/growth/query"
+	"github.com/mir-one/localfarm/src/growth/storage"
 )
 
 type CropEventQueryInMemory struct {

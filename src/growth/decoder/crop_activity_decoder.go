@@ -5,7 +5,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/Tanibox/tania-core/src/growth/storage"
+	"github.com/mir-one/localfarm/src/growth/storage"
 	"github.com/mitchellh/mapstructure"
 )
 

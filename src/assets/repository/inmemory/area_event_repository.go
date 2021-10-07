@@ -1,9 +1,9 @@
 package inmemory
 
 import (
-	"github.com/Tanibox/tania-core/src/assets/repository"
-	"github.com/Tanibox/tania-core/src/assets/storage"
 	"github.com/gofrs/uuid"
+	"github.com/mir-one/localfarm/src/assets/repository"
+	"github.com/mir-one/localfarm/src/assets/storage"
 )
 
 type AreaEventRepositoryInMemory struct {

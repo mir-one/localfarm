@@ -4,8 +4,8 @@ import (
 	"database/sql"
 	"time"
 
-	"github.com/Tanibox/tania-core/src/user/repository"
-	"github.com/Tanibox/tania-core/src/user/storage"
+	"github.com/mir-one/localfarm/src/user/repository"
+	"github.com/mir-one/localfarm/src/user/storage"
 )
 
 type UserAuthRepositorySqlite struct {

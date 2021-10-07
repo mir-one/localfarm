@@ -1,9 +1,9 @@
 package repository
 
 import (
-	"github.com/Tanibox/tania-core/src/user/domain"
-	"github.com/Tanibox/tania-core/src/user/storage"
 	"github.com/gofrs/uuid"
+	"github.com/mir-one/localfarm/src/user/domain"
+	"github.com/mir-one/localfarm/src/user/storage"
 )
 
 // RepositoryResult is a struct to wrap repository result

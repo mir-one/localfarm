@@ -5,10 +5,10 @@ import (
 	"encoding/json"
 	"time"
 
-	"github.com/Tanibox/tania-core/src/assets/decoder"
-	"github.com/Tanibox/tania-core/src/assets/repository"
-	"github.com/Tanibox/tania-core/src/helper/structhelper"
 	"github.com/gofrs/uuid"
+	"github.com/mir-one/localfarm/src/assets/decoder"
+	"github.com/mir-one/localfarm/src/assets/repository"
+	"github.com/mir-one/localfarm/src/helper/structhelper"
 )
 
 type AreaEventRepositoryMysql struct {

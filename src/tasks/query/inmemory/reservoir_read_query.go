@@ -1,9 +1,9 @@
 package inmemory
 
 import (
-	"github.com/Tanibox/tania-core/src/assets/storage"
-	"github.com/Tanibox/tania-core/src/tasks/query"
 	"github.com/gofrs/uuid"
+	"github.com/mir-one/localfarm/src/assets/storage"
+	"github.com/mir-one/localfarm/src/tasks/query"
 )
 
 type ReservoirQueryInMemory struct {

@@ -3,8 +3,8 @@ package sqlite
 import (
 	"database/sql"
 
-	"github.com/Tanibox/tania-core/src/growth/query"
 	"github.com/gofrs/uuid"
+	"github.com/mir-one/localfarm/src/growth/query"
 )
 
 type MaterialReadQueryMysql struct {

@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Tanibox/tania-core/src/tasks/query"
 	"github.com/gofrs/uuid"
+	"github.com/mir-one/localfarm/src/tasks/query"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 )

@@ -4,10 +4,10 @@ import (
 	"database/sql"
 	"time"
 
-	"github.com/Tanibox/tania-core/src/tasks/domain"
-	"github.com/Tanibox/tania-core/src/tasks/repository"
-	"github.com/Tanibox/tania-core/src/tasks/storage"
 	"github.com/gofrs/uuid"
+	"github.com/mir-one/localfarm/src/tasks/domain"
+	"github.com/mir-one/localfarm/src/tasks/repository"
+	"github.com/mir-one/localfarm/src/tasks/storage"
 )
 
 type TaskReadRepositorySqlite struct {

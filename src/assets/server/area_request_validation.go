@@ -3,9 +3,9 @@ package server
 import (
 	"strconv"
 
-	"github.com/Tanibox/tania-core/src/assets/domain"
-	"github.com/Tanibox/tania-core/src/assets/storage"
 	"github.com/gofrs/uuid"
+	"github.com/mir-one/localfarm/src/assets/domain"
+	"github.com/mir-one/localfarm/src/assets/storage"
 )
 
 func (rv *RequestValidation) ValidateReservoir(s FarmServer, reservoirUID uuid.UUID) (storage.ReservoirRead, error) {

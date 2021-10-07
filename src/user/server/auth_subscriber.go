@@ -1,9 +1,9 @@
 package server
 
 import (
-	"github.com/Tanibox/tania-core/src/user/domain"
-	"github.com/Tanibox/tania-core/src/user/storage"
 	"github.com/labstack/gommon/log"
+	"github.com/mir-one/localfarm/src/user/domain"
+	"github.com/mir-one/localfarm/src/user/storage"
 )
 
 func (s *AuthServer) SaveToUserReadModel(event interface{}) error {

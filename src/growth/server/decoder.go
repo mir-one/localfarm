@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/Tanibox/tania-core/src/growth/domain"
 	"github.com/gofrs/uuid"
+	"github.com/mir-one/localfarm/src/growth/domain"
 	"github.com/mitchellh/mapstructure"
 )
 

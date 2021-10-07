@@ -4,11 +4,11 @@ import (
 	"database/sql"
 	"time"
 
-	"github.com/Tanibox/tania-core/src/growth/domain"
-	"github.com/Tanibox/tania-core/src/growth/query"
-	"github.com/Tanibox/tania-core/src/growth/storage"
-	"github.com/Tanibox/tania-core/src/helper/paginationhelper"
 	"github.com/gofrs/uuid"
+	"github.com/mir-one/localfarm/src/growth/domain"
+	"github.com/mir-one/localfarm/src/growth/query"
+	"github.com/mir-one/localfarm/src/growth/storage"
+	"github.com/mir-one/localfarm/src/helper/paginationhelper"
 )
 
 type CropReadQuerySqlite struct {
