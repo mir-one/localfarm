@@ -1,13 +1,8 @@
 <div align="center">
     <img src="resources/images/logobig.png" alt="LocalFarm The Farmer Journal" width="200">
     <h1>The Farmer Journal</h1>
-    <img src="https://opencollective.com/mir-one/tiers/backer/badge.svg?label=backer&color=brightgreen" />
-    <img src="https://opencollective.com/mir-one/tiers/sponsor/badge.svg?label=sponsor&color=brightgreen" />
     <a href="https://t.me/mirlocalfarm"><img src="https://img.shields.io/badge/Telegram-blue.svg?logo=telegram&style=flat&label=chat%20on" alt="telegram"></a>
     <img src="https://img.shields.io/badge/semver-1.7.2-green.svg?maxAge=2592000" alt="semver">
-    <a href="https://travis-ci.com/mir-one/localfarm">
-      <img src="https://travis-ci.com/mir-one/localfarm.svg?branch=master" alt="Build Status">
-    </a>
     <a href="https://opensource.org/licenses/Apache-2.0" target="_blank"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License"></a>
 </div>
 
