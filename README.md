@@ -1,8 +1,8 @@
 <div align="center">
     <img src="resources/images/logobig.png" alt="LocalFarm The Farmer Journal" width="200">
     <h1>The Farmer Journal</h1>
-    <img src="https://opencollective.com/localfarm/tiers/backer/badge.svg?label=backer&color=brightgreen" />
-    <img src="https://opencollective.com/localfarm/tiers/sponsor/badge.svg?label=sponsor&color=brightgreen" />
+    <img src="https://opencollective.com/mir-one/tiers/backer/badge.svg?label=backer&color=brightgreen" />
+    <img src="https://opencollective.com/mir-one/tiers/sponsor/badge.svg?label=sponsor&color=brightgreen" />
     <a href="https://t.me/mirlocalfarm"><img src="https://img.shields.io/badge/Telegram-blue.svg?logo=telegram&style=flat&label=chat%20on" alt="telegram"></a>
     <img src="https://img.shields.io/badge/semver-1.7.2-green.svg?maxAge=2592000" alt="semver">
     <a href="https://travis-ci.com/mir-one/localfarm">
@@ -133,22 +133,22 @@ Then follow the instruction to [build LocalFarm](#building-instructions).
 
 ## Support Us
 
-You can become a backer or a sponsor for LocalFarm through our [Open Collective page](https://opencollective.com/localfarm).
+You can become a backer or a sponsor for LocalFarm through our [Open Collective page](https://opencollective.com/mir-one).
 
 You can also support LocalFarm development by buying the merchandise from [LocalFarm Swag Store](https://teespring.com/stores/localfarm).
 
 ### Contributors
 
 This project exists thanks to all the people who contribute.
-<a href="https://github.com/mir-one/localfarm/graphs/contributors"><img src="https://opencollective.com/localfarm/contributors.svg?width=890&button=false" /></a>
+<a href="https://github.com/mir-one/localfarm/graphs/contributors"><img src="https://opencollective.com/mir-one/contributors.svg?width=890&button=false" /></a>
 
 ### Backers
 
-Become a backer with a monthly donation and help us continue our activities. <a href="https://opencollective.com/localfarm"><img src="https://opencollective.com/localfarm/backers.svg?width=890&button=false" alt="backers"><img src="https://opencollective.com/localfarm/tiers/backer.svg?avatarHeight=36&width=600" alt="backers"></a>
+Become a backer with a monthly donation and help us continue our activities. <a href="https://opencollective.com/mir-one"><img src="https://opencollective.com/mir-one/backers.svg?width=890&button=false" alt="backers"><img src="https://opencollective.com/mir-one/tiers/backer.svg?avatarHeight=36&width=600" alt="backers"></a>
 
 ### Sponsors
 
-Become a sponsor and get your logo on our README on GitHub with a link to your site. <a href="https://opencollective.com/localfarm"><img src="https://opencollective.com/localfarm/tiers/sponsor.svg?avatarHeight=36&width=600" alt="backers"></a>
+Become a sponsor and get your logo on our README on GitHub with a link to your site. <a href="https://opencollective.com/mir-one"><img src="https://opencollective.com/mir-one/tiers/sponsor.svg?avatarHeight=36&width=600" alt="backers"></a>
 
 ## Authors
 
