@@ -1,7 +1,7 @@
 <template lang="pug">
   b-navbar(toggleable="lg" type="light" variant="white")
     b-navbar-brand(href="/")
-      img.mobile-brand.d-md-none(src="../../images/logobig.png" alt="Tania Logo")
+      img.mobile-brand.d-md-none(src="../../images/logobig.png" alt="LocalFarm Logo")
 
     b-navbar-toggle(target="nav-collapse")
 

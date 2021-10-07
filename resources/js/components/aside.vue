@@ -1,7 +1,7 @@
 <template lang="pug">
 aside#aside
   .brand-image.text-center
-    img(src="../../images/logo.png" alt="Tania Logo")
+    img(src="../../images/logo.png" alt="LocalFarm Logo")
 
   b-nav(vertical="vertical")
     AsideItem(

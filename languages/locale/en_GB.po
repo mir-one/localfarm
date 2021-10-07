@@ -1,6 +1,6 @@
-# Tania in British English.
+# LocalFarm in British English.
 # Copyright (C) 2019
-# This file is distributed under the same license as the Tania package.
+# This file is distributed under the same license as the LocalFarm package.
 # Asep Bagja Priandana <asep.bagja.p@gmail.com>, 2019.
 #
 #, fuzzy
@@ -1021,8 +1021,8 @@ msgid "What is On Production"
 msgstr "What is On Production"
 
 #: resources/js/pages/home.vue:13
-msgid "You are using Tania 1.7 right now"
-msgstr "You are using Tania 1.7 right now"
+msgid "You are using LocalFarm 1.7 right now"
+msgstr "You are using LocalFarm 1.7 right now"
 
 #: resources/js/pages/home.vue:52
 msgid "Qty"

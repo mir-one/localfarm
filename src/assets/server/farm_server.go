@@ -51,7 +51,7 @@ type FarmServer struct {
 	MaterialReadQuery   query.MaterialReadQuery
 	CropReadQuery       query.CropReadQuery
 	File                File
-	EventBus            eventbus.TaniaEventBus
+	EventBus            eventbus.LocalFarmEventBus
 }
 
 // NewFarmServer initializes FarmServer's dependencies and create new FarmServer struct
@@ -66,14 +66,14 @@ func NewFarmServer(
 	materialEventStorage *storage.MaterialEventStorage,
 	materialReadStorage *storage.MaterialReadStorage,
 	cropReadStorage *growthstorage.CropReadStorage,
-	eventBus eventbus.TaniaEventBus,
+	eventBus eventbus.LocalFarmEventBus,
 ) (*FarmServer, error) {
 	farmServer := &FarmServer{
 		File:     LocalFile{},
 		EventBus: eventBus,
 	}
 
-	switch *config.Config.TaniaPersistenceEngine {
+	switch *config.Config.LocalFarmPersistenceEngine {
 	case config.DB_INMEMORY:
 		farmServer.FarmEventRepo = repoInMem.NewFarmEventRepositoryInMemory(farmEventStorage)
 		farmServer.FarmEventQuery = queryInMem.NewFarmEventQueryInMemory(farmEventStorage)

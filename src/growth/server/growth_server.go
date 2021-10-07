@@ -43,14 +43,14 @@ type GrowthServer struct {
 	MaterialReadQuery query.MaterialReadQuery
 	FarmReadQuery     query.FarmReadQuery
 	TaskReadQuery     query.TaskReadQuery
-	EventBus          eventbus.TaniaEventBus
+	EventBus          eventbus.LocalFarmEventBus
 	File              File
 }
 
 // NewGrowthServer initializes GrowthServer's dependencies and create new GrowthServer struct
 func NewGrowthServer(
 	db *sql.DB,
-	bus eventbus.TaniaEventBus,
+	bus eventbus.LocalFarmEventBus,
 	cropEventStorage *storage.CropEventStorage,
 	cropReadStorage *storage.CropReadStorage,
 	cropActivityStorage *storage.CropActivityStorage,
@@ -64,7 +64,7 @@ func NewGrowthServer(
 		EventBus: bus,
 	}
 
-	switch *config.Config.TaniaPersistenceEngine {
+	switch *config.Config.LocalFarmPersistenceEngine {
 	case config.DB_INMEMORY:
 		growthServer.CropEventRepo = repoInMem.NewCropEventRepositoryInMemory(cropEventStorage)
 		growthServer.CropEventQuery = queryInMem.NewCropEventQueryInMemory(cropEventStorage)

@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="resources/images/logobig.png" alt="Tania The Farmer Journal" width="200">
+    <img src="resources/images/logobig.png" alt="LocalFarm The Farmer Journal" width="200">
     <h1>The Farmer Journal</h1>
     <img src="https://opencollective.com/tania/tiers/backer/badge.svg?label=backer&color=brightgreen" />
     <img src="https://opencollective.com/tania/tiers/sponsor/badge.svg?label=sponsor&color=brightgreen" />
@@ -13,13 +13,13 @@
 
 # Warning
 
-This is the development branch of Tania. Changes can occur nightly. If you need the stable branch you can checkout [the master branch](https://github.com/Tanibox/tania-core/tree/master).
+This is the development branch of LocalFarm. Changes can occur nightly. If you need the stable branch you can checkout [the master branch](https://github.com/Tanibox/tania-core/tree/master).
 
 ---
 
-**Tania** is a free and open source farm management software. You can manage your farm areas, farm reservoirs, farm tasks, inventories, and the crop growing progress. It is designed for any type of farms.
+**LocalFarm** is a free and open source farm management software. You can manage your farm areas, farm reservoirs, farm tasks, inventories, and the crop growing progress. It is designed for any type of farms.
 
-Download Tania for Windows x64 and Linux x64 on [the release page](https://github.com/Tanibox/tania-core/releases/tag/1.7.1).
+Download LocalFarm for Windows x64 and Linux x64 on [the release page](https://github.com/Tanibox/tania-core/releases/tag/1.7.1).
 
 ![Screenshot](screenshot.PNG)
 
@@ -32,7 +32,7 @@ Download Tania for Windows x64 and Linux x64 on [the release page](https://githu
     * [Run The Test](#run-the-test)
 * [REST APIs](#rest-apis)
 * [Roadmap](#roadmap)
-* [Contributing to Tania](#contributing-to-tania)
+* [Contributing to LocalFarm](#contributing-to-tania)
     * [Localisation](#localisation)
 * [Support Us](#support-us)
     * [Contributors](#contributors)
@@ -43,9 +43,9 @@ Download Tania for Windows x64 and Linux x64 on [the release page](https://githu
 
 ## Getting Started
 
-This software is built with [Go](https://golang.org) programming language. It means you will get an executable binary to run on your machine. You **don't need** extra software like MAMP, XAMPP, or WAMP to run **Tania**, but you may need MySQL database if you choose to use it instead of SQLite *(the default database.)*
+This software is built with [Go](https://golang.org) programming language. It means you will get an executable binary to run on your machine. You **don't need** extra software like MAMP, XAMPP, or WAMP to run **LocalFarm**, but you may need MySQL database if you choose to use it instead of SQLite *(the default database.)*
 
-If your OS is not listed on our releases page, you have to build Tania for your OS by yourself. You can follow our instructions to build **Tania**.
+If your OS is not listed on our releases page, you have to build LocalFarm for your OS by yourself. You can follow our instructions to build **LocalFarm**.
 
 ### Prerequisites
 - [Go](https://golang.org) >= 1.11
@@ -64,7 +64,7 @@ If your OS is not listed on our releases page, you have to build Tania for your 
 
 ### Database Engine
 
-Tania uses SQLite as the default database engine. You may use MySQL as your database engine by replacing `sqlite` with `mysql` at `tania_persistence_engine` field in your `conf.json`.
+LocalFarm uses SQLite as the default database engine. You may use MySQL as your database engine by replacing `sqlite` with `mysql` at `tania_persistence_engine` field in your `conf.json`.
 
 ```
 {
@@ -92,29 +92,29 @@ Tania uses SQLite as the default database engine. You may use MySQL as your data
 - Use `npm run cypress:run` to run the end-to-end test
 
 ## REST APIs
-**Tania** have REST APIs to easily integrate with any softwares, even you can build a mobile app client for it. You can import the JSON file inside Postman directory to [Postman app](https://www.getpostman.com).
+**LocalFarm** have REST APIs to easily integrate with any softwares, even you can build a mobile app client for it. You can import the JSON file inside Postman directory to [Postman app](https://www.getpostman.com).
 ## Roadmap
 
-We want to share our high-level details of our roadmap, so that others can see our priorities in Tania development. You can read our roadmap on [the wiki](https://github.com/Tanibox/tania-core/wiki/Roadmap).
+We want to share our high-level details of our roadmap, so that others can see our priorities in LocalFarm development. You can read our roadmap on [the wiki](https://github.com/Tanibox/tania-core/wiki/Roadmap).
 
-## Contributing to Tania
+## Contributing to LocalFarm
 
 We welcome contributions, but request you to follow these [guidelines](contributing.md).
 
 ### Localisation
 
-You can help us to localise Tania into your language by following these steps:
+You can help us to localise LocalFarm into your language by following these steps:
 
 1. Copy `languages/template.pot` and paste it to `languages/locale` directory.
 2. Rename it with your language locale code e.g: `en_AU.po`, `de_DE.po`, etc.
 3. Fill `msgstr` key with your translation. You can edit the `.po` file by using text editor or PO Edit software.
 4. Pull request your translation to the `master` branch.
 
-### Build Tania localisation by yourself
+### Build LocalFarm localisation by yourself
 
 **Note:** You will need to install GNU Gettext for your OS. Get it [here](https://www.gnu.org/software/gettext/).
 
-You can build Tania in your language by changing the default language inside `resources/js/app.js`.
+You can build LocalFarm in your language by changing the default language inside `resources/js/app.js`.
 
 ```
 Vue.use(GetTextPlugin, {
@@ -129,13 +129,13 @@ Vue.use(GetTextPlugin, {
 })
 ```
 
-Then follow the instruction to [build Tania](#building-instructions).
+Then follow the instruction to [build LocalFarm](#building-instructions).
 
 ## Support Us
 
-You can become a backer or a sponsor for Tania through our [Open Collective page](https://opencollective.com/tania).
+You can become a backer or a sponsor for LocalFarm through our [Open Collective page](https://opencollective.com/tania).
 
-You can also support Tania development by buying the merchandise from [Tania Swag Store](https://teespring.com/stores/usetania).
+You can also support LocalFarm development by buying the merchandise from [LocalFarm Swag Store](https://teespring.com/stores/usetania).
 
 ### Contributors
 
@@ -152,7 +152,7 @@ Become a sponsor and get your logo on our README on GitHub with a link to your s
 
 ## Authors
 
-Tania is a project of [Tanibox](https://tanibox.com).
+LocalFarm is a project of [Tanibox](https://tanibox.com).
 
 ## Copyright and License
 

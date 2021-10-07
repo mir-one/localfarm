@@ -68,7 +68,7 @@ func (state *Farm) Transition(event interface{}) {
 	}
 }
 
-// CreateFarm registers a new farm to Tania
+// CreateFarm registers a new farm to LocalFarm
 func CreateFarm(name, farmType, latitude, longitude, country, city string) (*Farm, error) {
 	err := validateFarmName(name)
 	if err != nil {

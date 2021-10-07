@@ -15,19 +15,19 @@ const (
 )
 
 type Configuration struct {
-	AppPort                *string   `mapstructure:"app_port"`
-	DemoMode               *bool     `mapstructure:"demo_mode"`
-	UploadPathArea         *string   `mapstructure:"upload_path_area"`
-	UploadPathCrop         *string   `mapstructure:"upload_path_crop"`
-	TaniaPersistenceEngine *string   `mapstructure:"tania_persistence_engine"`
-	SqlitePath             *string   `mapstructure:"sqlite_path"`
-	MysqlHost              *string   `mapstructure:"mysql_host"`
-	MysqlPort              *string   `mapstructure:"mysql_port"`
-	MysqlDbname            *string   `mapstructure:"mysql_dbname"`
-	MysqlUsername          *string   `mapstructure:"mysql_username"`
-	MysqlPassword          *string   `mapstructure:"mysql_password"`
-	RedirectURI            []*string `mapstructure:"redirect_uri"`
-	ClientID               *string   `mapstructure:"client_id"`
+	AppPort                    *string   `mapstructure:"app_port"`
+	DemoMode                   *bool     `mapstructure:"demo_mode"`
+	UploadPathArea             *string   `mapstructure:"upload_path_area"`
+	UploadPathCrop             *string   `mapstructure:"upload_path_crop"`
+	LocalFarmPersistenceEngine *string   `mapstructure:"tania_persistence_engine"`
+	SqlitePath                 *string   `mapstructure:"sqlite_path"`
+	MysqlHost                  *string   `mapstructure:"mysql_host"`
+	MysqlPort                  *string   `mapstructure:"mysql_port"`
+	MysqlDbname                *string   `mapstructure:"mysql_dbname"`
+	MysqlUsername              *string   `mapstructure:"mysql_username"`
+	MysqlPassword              *string   `mapstructure:"mysql_password"`
+	RedirectURI                []*string `mapstructure:"redirect_uri"`
+	ClientID                   *string   `mapstructure:"client_id"`
 }
 
 /*
@@ -46,13 +46,13 @@ func InitViperConfig() {
 	v.AutomaticEnv()
 
 	// App Ports
-	pflag.String("app_port", "8080", "Tania server port")
+	pflag.String("app_port", "8080", "LocalFarm server port")
 
 	// Demo Mode
 	pflag.Bool("demo_mode", true, "Switch for the demo mode. This will bypass auth check and use hardcoded token demo")
 
 	// Persistence Config
-	pflag.String("tania_persistence_engine", "sqlite", "Tania persistence engine. Available engine: mysql, sqlite, inmemory")
+	pflag.String("tania_persistence_engine", "sqlite", "LocalFarm persistence engine. Available engine: mysql, sqlite, inmemory")
 
 	// Persistence Config - SQLite
 	pflag.String("sqlite_path", "tania.db", "Path of sqlite file db")

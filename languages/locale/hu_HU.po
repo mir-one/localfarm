@@ -1,6 +1,6 @@
-# Tania in Hungarian.
+# LocalFarm in Hungarian.
 # Copyright (C) 2019
-# This file is distributed under the same license as the Tania package.
+# This file is distributed under the same license as the LocalFarm package.
 # Kornél Fülöp <fkornel@gmail.com>, 2019.
 #
 msgid ""
@@ -1005,8 +1005,8 @@ msgstr "Igen"
 
 #: resources/js/pages/home.vue:13
 #, fuzzy
-msgid "You are using Tania 1.7 right now"
-msgstr "A Tania 1.7-ot használod."
+msgid "You are using LocalFarm 1.7 right now"
+msgstr "A LocalFarm 1.7-ot használod."
 
 #: resources/js/pages/auth/login.vue:37
 msgid "Your password here"

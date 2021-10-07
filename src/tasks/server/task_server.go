@@ -33,13 +33,13 @@ type TaskServer struct {
 	TaskEventQuery query.TaskEventQuery
 	TaskReadQuery  query.TaskReadQuery
 	TaskService    domain.TaskService
-	EventBus       eventbus.TaniaEventBus
+	EventBus       eventbus.LocalFarmEventBus
 }
 
 // NewTaskServer initializes TaskServer's dependencies and create new TaskServer struct
 func NewTaskServer(
 	db *sql.DB,
-	bus eventbus.TaniaEventBus,
+	bus eventbus.LocalFarmEventBus,
 	cropStorage *cropstorage.CropReadStorage,
 	areaStorage *assetsstorage.AreaReadStorage,
 	materialStorage *assetsstorage.MaterialReadStorage,
@@ -51,7 +51,7 @@ func NewTaskServer(
 		EventBus: bus,
 	}
 
-	switch *config.Config.TaniaPersistenceEngine {
+	switch *config.Config.LocalFarmPersistenceEngine {
 	case config.DB_INMEMORY:
 		taskServer.TaskEventRepo = repoInMem.NewTaskEventRepositoryInMemory(taskEventStorage)
 		taskServer.TaskReadRepo = repoInMem.NewTaskReadRepositoryInMemory(taskReadStorage)

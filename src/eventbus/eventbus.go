@@ -4,7 +4,7 @@ import (
 	"github.com/asaskevich/EventBus"
 )
 
-type TaniaEventBus interface {
+type LocalFarmEventBus interface {
 	Publish(eventName string, event interface{})
 	Subscribe(eventName string, handlerFunc interface{})
 }

@@ -9,7 +9,7 @@
           .text-center
             img(
               src="../../../images/logobig.png"
-              alt="Tania Logo"
+              alt="LocalFarm Logo"
               width="200"
             )
           b-form(@submit.prevent="validateBeforeSubmit")

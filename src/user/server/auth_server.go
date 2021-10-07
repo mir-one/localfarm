@@ -32,20 +32,20 @@ type AuthServer struct {
 	UserAuthRepo   repository.UserAuthRepository
 	UserAuthQuery  query.UserAuthQuery
 	UserService    domain.UserService
-	EventBus       eventbus.TaniaEventBus
+	EventBus       eventbus.LocalFarmEventBus
 }
 
 // NewAuthServer initializes AuthServer's dependencies and create new AuthServer struct
 func NewAuthServer(
 	db *sql.DB,
-	eventBus eventbus.TaniaEventBus,
+	eventBus eventbus.LocalFarmEventBus,
 ) (*AuthServer, error) {
 
 	authServer := &AuthServer{
 		EventBus: eventBus,
 	}
 
-	switch *config.Config.TaniaPersistenceEngine {
+	switch *config.Config.LocalFarmPersistenceEngine {
 	case config.DB_SQLITE:
 		authServer.UserEventRepo = repoSqlite.NewUserEventRepositorySqlite(db)
 		authServer.UserReadRepo = repoSqlite.NewUserReadRepositorySqlite(db)

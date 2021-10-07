@@ -981,8 +981,8 @@ msgid "Yes"
 msgstr "Ναι"
 
 #: resources/js/pages/home.vue:13
-msgid "You are using Tania 1.7 right now"
-msgstr "Αυτή τη στιγμή χρησιμοποιείτε την Tania 1.7"
+msgid "You are using LocalFarm 1.7 right now"
+msgstr "Αυτή τη στιγμή χρησιμοποιείτε την LocalFarm 1.7"
 
 #: resources/js/pages/auth/login.vue:37
 msgid "Your password here"

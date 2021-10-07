@@ -24,7 +24,7 @@ func (s *LocationServer) Mount(g *echo.Group) {
 	g.GET("/countries", LocationsGetCountries)
 }
 
-// LocationsGetCountries displays all available location in Tania
+// LocationsGetCountries displays all available location in LocalFarm
 func LocationsGetCountries(c echo.Context) error {
 	var countries []Country
 	query := gountries.New()

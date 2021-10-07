@@ -49,13 +49,13 @@ func main() {
 	e := echo.New()
 
 	// Initialize DB.
-	log.Print("Using " + *config.Config.TaniaPersistenceEngine + " persistence engine")
+	log.Print("Using " + *config.Config.LocalFarmPersistenceEngine + " persistence engine")
 
 	// InMemory DB will always be initialized.
 	inMem := initInMemory()
 
 	var db *sql.DB
-	switch *config.Config.TaniaPersistenceEngine {
+	switch *config.Config.LocalFarmPersistenceEngine {
 	case config.DB_SQLITE:
 		db = initSqlite()
 	case config.DB_MYSQL:
@@ -351,9 +351,9 @@ func tokenValidationWithConfig(db *sql.DB) echo.MiddlewareFunc {
 			}
 
 			var userUID uuid.UUID
-			if *config.Config.TaniaPersistenceEngine == config.DB_SQLITE {
+			if *config.Config.LocalFarmPersistenceEngine == config.DB_SQLITE {
 				userUID, err = uuid.FromString(string(ubyte))
-			} else if *config.Config.TaniaPersistenceEngine == config.DB_MYSQL {
+			} else if *config.Config.LocalFarmPersistenceEngine == config.DB_MYSQL {
 				ubyte := uid.([]byte)
 				userUID, err = uuid.FromBytes(ubyte)
 			}
