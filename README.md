@@ -20,7 +20,7 @@
 
 ## Оглавление
 
-* [Начало](#getting-started)
+* [Начало](#Начало)
     * [Требования](#prerequisites)
     * [Инструкции по сборке](#building-instructions)
     * [Ядро СУБД](#database-engine)
