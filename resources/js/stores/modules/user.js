@@ -26,7 +26,7 @@ const actions = {
           commit(types.USER_LOGIN, {
             uid: 1,
             username: payload.username,
-            email: 'hello@tanibox.com',
+            email: 'dao@mir.one',
             intro: payload.username === 'user' ? false: true
           })
           resolve(data)

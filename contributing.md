@@ -2,7 +2,7 @@
 
 We welcome contributions, but request you to follow these guidelines.
 
-This project adheres to the [Contributor Covenant 1.4](code-of-conduct.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [asep@tanibox.com](mailto:asep@tanibox.com).
+This project adheres to the [Contributor Covenant 1.4](code-of-conduct.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [dao@mir.one](mailto:dao@mir.one).
 
 ## Raising Issues
 
