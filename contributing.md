@@ -12,8 +12,8 @@ A good bug report is one that make it easy to understand what you were trying to
 
 ## Feature requests
 
-For feature requests, please raise and discuss them on [LocalFarm's Telegram group](https://t.me/usetania).
+For feature requests, please raise and discuss them on [LocalFarm's Telegram group](https://t.me/localfarm).
 
 ## Pull-Requests
 
-If you want to raise a pull-request with a new feature, or refactoring of existing code, please, discuss it first on [LocalFarm's Telegram group](https://t.me/usetania).
+If you want to raise a pull-request with a new feature, or refactoring of existing code, please, discuss it first on [LocalFarm's Telegram group](https://t.me/localfarm).

@@ -3,7 +3,7 @@
     <h1>The Farmer Journal</h1>
     <img src="https://opencollective.com/tania/tiers/backer/badge.svg?label=backer&color=brightgreen" />
     <img src="https://opencollective.com/tania/tiers/sponsor/badge.svg?label=sponsor&color=brightgreen" />
-    <a href="https://t.me/usetania"><img src="https://img.shields.io/badge/Telegram-blue.svg?logo=telegram&style=flat&label=chat%20on" alt="telegram"></a>
+    <a href="https://t.me/localfarm"><img src="https://img.shields.io/badge/Telegram-blue.svg?logo=telegram&style=flat&label=chat%20on" alt="telegram"></a>
     <img src="https://img.shields.io/badge/semver-1.7.2-green.svg?maxAge=2592000" alt="semver">
     <a href="https://travis-ci.com/Tanibox/tania-core">
       <img src="https://travis-ci.com/Tanibox/tania-core.svg?branch=master" alt="Build Status">
@@ -135,7 +135,7 @@ Then follow the instruction to [build Tania](#building-instructions).
 
 You can become a backer or a sponsor for Tania through our [Open Collective page](https://opencollective.com/tania).
 
-You can also support Tania development by buying the merchandise from [Tania Swag Store](https://teespring.com/stores/usetania).
+You can also support Tania development by buying the merchandise from [Tania Swag Store](https://teespring.com/stores/localfarm).
 
 ### Contributors
 
