@@ -6,27 +6,27 @@
     <a href="https://opensource.org/licenses/Apache-2.0" target="_blank"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License"></a>
 </div>
 
-# Warning
+# Внимание
 
-This is the development branch of LocalFarm. Changes can occur nightly. If you need the stable branch you can checkout [the master branch](https://github.com/mir-one/localfarm/tree/master).
+Это ветка разработки LocalFarm. Изменения могут происходить ежедневно. Если вам нужна стабильная версия, вы можете открыть [эту ветку](https://github.com/mir-one/localfarm/tree/master).
 
 ---
 
-**LocalFarm** is a free and open source farm management software. You can manage your farm areas, farm reservoirs, farm tasks, inventories, and the crop growing progress. It is designed for any type of farms.
+**LocalFarm** - программное обеспечение для прогрессивного растениеводства с открытым исходным кодом. Управление агробизнесом, контроль уровня воды в резервуарах, список задач, запасы и прогресс выращивания растений. Подходит для закрытых и открытых типов ферм.
 
-Download LocalFarm for Windows x64 and Linux x64 on [the release page](https://github.com/mir-one/localfarm/releases/tag/1.7.1).
+Скачайте LocalFarm для Windows x64 и Linux x64 на [странице релиза](https://github.com/mir-one/localfarm/releases/tag/1.7.1).
 
-![Screenshot](screenshot.PNG)
+![Скриншот](screenshot.PNG)
 
-## Table of Contents
+## Оглавление
 
-* [Getting Started](#getting-started)
-    * [Prerequisites](#prerequisites)
-    * [Building Instructions](#building-instructions)
-    * [Database Engine](#database-engine)
-    * [Run The Test](#run-the-test)
+* [Начало](#getting-started)
+    * [Требования](#prerequisites)
+    * [Инструкции по сборке](#building-instructions)
+    * [Ядро СУБД](#database-engine)
+    * [Запуск тестирования](#run-the-test)
 * [REST APIs](#rest-apis)
-* [Roadmap](#roadmap)
+* [Дорожная карта](#roadmap)
 * [Contributing to LocalFarm](#contributing-to-localfarm)
     * [Localisation](#localisation)
 * [Support Us](#support-us)
@@ -36,17 +36,17 @@ Download LocalFarm for Windows x64 and Linux x64 on [the release page](https://g
 * [Authors](#authors)
 * [Copyright and License](#copyright-and-license)
 
-## Getting Started
+## Начало
 
-This software is built with [Go](https://golang.org) programming language. It means you will get an executable binary to run on your machine. You **don't need** extra software like MAMP, XAMPP, or WAMP to run **LocalFarm**, but you may need MySQL database if you choose to use it instead of SQLite *(the default database.)*
+Это программное обеспечение создано на языке программирования [Go](https://golang.org). Это означает, что вы получите исполняемый двоичный файл для запуска на вашем компьютере. Вам **не нужно** дополнительное программное обеспечение, такое как MAMP, XAMPP или WAMP для запуска **LocalFarm**, но вам может потребоваться база данных MySQL, если вы решите использовать ее вместо SQLite *(база данных по умолчанию).*
 
-If your OS is not listed on our releases page, you have to build LocalFarm for your OS by yourself. You can follow our instructions to build **LocalFarm**.
+Если ваша ОС не указана на странице релизов, вам придется самостоятельно собрать LocalFarm для своей ОС. Вы можете следовать нашим инструкциям по созданию **LocalFarm**. 
 
-### Prerequisites
+### Требования
 - [Go](https://golang.org) >= 1.11
 - [NodeJS](https://nodejs.org/en/) 8 or 10
 
-### Building Instructions
+### Инструкции по сборке
 1. Clone the repo using `git clone https://github.com/mir-one/localfarm.git`
 2. Checkout the current stable version by using `git checkout tags/1.7.2 -b v1.7.2`
 3. From the project root, call `go get` to install the Go dependencies.
@@ -57,7 +57,7 @@ If your OS is not listed on our releases page, you have to build LocalFarm for y
 8. Run the program from Terminal by issuing `./localfarm`, or from Windows Command Prompt by issuing `.\localfarm.exe`.
 9. The default username and password are `localfarm / localfarm`.
 
-### Database Engine
+### Ядро СУБД
 
 LocalFarm uses SQLite as the default database engine. You may use MySQL as your database engine by replacing `sqlite` with `mysql` at `localfarm_persistence_engine` field in your `conf.json`.
 
@@ -82,18 +82,17 @@ LocalFarm uses SQLite as the default database engine. You may use MySQL as your 
 }
 ```
 
-### Run The Test
+### Запуск тестирования
 - Use `go test ./...` to run all the Go tests.
 - Use `npm run cypress:run` to run the end-to-end test
 
 ## REST APIs
 **LocalFarm** have REST APIs to easily integrate with any softwares, even you can build a mobile app client for it. You can import the JSON file inside Postman directory to [Postman app](https://www.getpostman.com).
-## Roadmap
 
+## Дорожная карта
 We want to share our high-level details of our roadmap, so that others can see our priorities in LocalFarm development. You can read our roadmap on [the wiki](https://github.com/mir-one/localfarm/wiki/Roadmap).
 
 ## Contributing to LocalFarm
-
 We welcome contributions, but request you to follow these [guidelines](contributing.md).
 
 ### Localisation
