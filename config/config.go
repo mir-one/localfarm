@@ -19,7 +19,7 @@ type Configuration struct {
 	DemoMode                   *bool     `mapstructure:"demo_mode"`
 	UploadPathArea             *string   `mapstructure:"upload_path_area"`
 	UploadPathCrop             *string   `mapstructure:"upload_path_crop"`
-	LocalFarmPersistenceEngine *string   `mapstructure:"tania_persistence_engine"`
+	LocalFarmPersistenceEngine *string   `mapstructure:"localfarm_persistence_engine"`
 	SqlitePath                 *string   `mapstructure:"sqlite_path"`
 	MysqlHost                  *string   `mapstructure:"mysql_host"`
 	MysqlPort                  *string   `mapstructure:"mysql_port"`
@@ -52,21 +52,21 @@ func InitViperConfig() {
 	pflag.Bool("demo_mode", true, "Switch for the demo mode. This will bypass auth check and use hardcoded token demo")
 
 	// Persistence Config
-	pflag.String("tania_persistence_engine", "sqlite", "LocalFarm persistence engine. Available engine: mysql, sqlite, inmemory")
+	pflag.String("localfarm_persistence_engine", "sqlite", "LocalFarm persistence engine. Available engine: mysql, sqlite, inmemory")
 
 	// Persistence Config - SQLite
-	pflag.String("sqlite_path", "tania.db", "Path of sqlite file db")
+	pflag.String("sqlite_path", "localfarm.db", "Path of sqlite file db")
 
 	// Persistence Config - MySQL
 	pflag.String("mysql_host", "127.0.0.1", "Mysql Host")
 	pflag.String("mysql_port", "3306", "Mysql Port")
-	pflag.String("mysql_dbname", "tania", "Mysql DBName")
+	pflag.String("mysql_dbname", "localfarm", "Mysql DBName")
 	pflag.String("mysql_username", "root", "Mysql username")
 	pflag.String("mysql_password", "root", "Mysql password")
 
 	// Local Upload Path
-	pflag.String("upload_path_area", "tania-uploads/area", "Upload path for the Area photo")
-	pflag.String("upload_path_crop", "tania-uploads/crop", "Upload path for the Crop photo")
+	pflag.String("upload_path_area", "localfarm-uploads/area", "Upload path for the Area photo")
+	pflag.String("upload_path_crop", "localfarm-uploads/crop", "Upload path for the Crop photo")
 
 	// Built-In implicit grant OAuth 2
 	pflag.StringSlice("redirect_uri", []string{"http://localhost:8080/oauth2_implicit_callback"}, "URI for redirection after authorization server grants access token")

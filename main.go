@@ -172,8 +172,8 @@ func main() {
 }
 
 func initUser(authServer *userserver.AuthServer) error {
-	defaultUsername := "tania"
-	defaultPassword := "tania"
+	defaultUsername := "localfarm"
+	defaultPassword := "localfarm"
 
 	_, _, err := authServer.RegisterNewUser(defaultUsername, defaultPassword, defaultPassword)
 	if err != nil {

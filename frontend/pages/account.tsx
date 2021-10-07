@@ -7,7 +7,7 @@ import ButtonIcon from "../components/ButtonIcon";
 import Layout from "../components/Layout";
 
 const Account: NextPage = () => {
-  const [username, setUsername] = useState("tania");
+  const [username, setUsername] = useState("localfarm");
   const [oldPassword, setOldPassword] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");

@@ -7,8 +7,8 @@ export function login() {
   cy.get('label#label-password').should('contain', 'Password')
 
   // Typing the form
-  cy.get('input#username').type('tania').should('have.value', 'tania')
-  cy.get('input#password').type('tania')
+  cy.get('input#username').type('localfarm').should('have.value', 'localfarm')
+  cy.get('input#password').type('localfarm')
   cy.get('button.btn').click()
 }
 

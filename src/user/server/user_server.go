@@ -87,8 +87,8 @@ func (s *UserServer) ChangePassword(c echo.Context) error {
 	newPassword := c.FormValue("new_password")
 	confirmNewPassword := c.FormValue("confirm_new_password")
 
-	// We only use one default user, which is `tania`, so it's okay to hardcoded it here
-	queryResult := <-s.UserReadQuery.FindByUsername("tania")
+	// We only use one default user, which is `localfarm`, so it's okay to hardcoded it here
+	queryResult := <-s.UserReadQuery.FindByUsername("localfarm")
 	if queryResult.Error != nil {
 		return queryResult.Error
 	}

@@ -8,8 +8,8 @@ go test ./...
 
 # Create empty sqlite db file. Will be overwritten everytime.
 echo "Create empty sqlite db file"
-touch db/sqlite/tania.db
-chmod 775 db/sqlite/tania.db
+touch db/sqlite/localfarm.db
+chmod 775 db/sqlite/localfarm.db
 
 echo "Building golang binaries..."
 # Build and test Golang
@@ -18,7 +18,7 @@ make linux-arm linux-amd64 windows
 echo "Configuring binary for running ..."
 # Setting up configuration
 cp conf.json.example conf.json
-sed -i.bak "s|/Users/user/Code/golang/src/github.com/Tanibox/tania-server|$TRAVIS_BUILD_DIR|g" conf.json
+sed -i.bak "s|/Users/user/Code/golang/src/github.com/LocalFarm/localfarm-server|$TRAVIS_BUILD_DIR|g" conf.json
 # Set DEMO_MODE to true to turn off the token validation
 DEMO_MODE=false
 echo "DEMO_MODE is set to ${DEMO_MODE}"
@@ -26,7 +26,7 @@ echo "DEMO_MODE is set to ${DEMO_MODE}"
 echo "Starting server for E2E testing ..."
 
 # Run golang on linux
-./tania.linux.amd64 > /dev/null 2>&1 &
+./localfarm.linux.amd64 > /dev/null 2>&1 &
 TANIA_PID=$!
 
 echo "Server has running running in the background at pid ${TANIA_PID}"

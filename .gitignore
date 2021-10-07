@@ -3,7 +3,7 @@
 *.dll
 *.so
 *.dylib
-tania-core
+localfarm
 
 # Test binary, build with `go test -c`
 *.test
@@ -24,10 +24,10 @@ storage.db
 notes.md
 .vscode
 conf.json
-db/sqlite/tania.db
-tania.db
-tania-server
-tania-uploads
+db/sqlite/localfarm.db
+localfarm.db
+localfarm-server
+localfarm-uploads
 
 /resources/tests/unit/coverage/
 /resources/tests/assets/screenshots/
