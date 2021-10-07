@@ -3,7 +3,7 @@
     <h1>The Farmer Journal</h1>
     <img src="https://opencollective.com/tania/tiers/backer/badge.svg?label=backer&color=brightgreen" />
     <img src="https://opencollective.com/tania/tiers/sponsor/badge.svg?label=sponsor&color=brightgreen" />
-    <a href="https://t.me/localfarm"><img src="https://img.shields.io/badge/Telegram-blue.svg?logo=telegram&style=flat&label=chat%20on" alt="telegram"></a>
+    <a href="https://t.me/mirlocalfarm"><img src="https://img.shields.io/badge/Telegram-blue.svg?logo=telegram&style=flat&label=chat%20on" alt="telegram"></a>
     <img src="https://img.shields.io/badge/semver-1.7.2-green.svg?maxAge=2592000" alt="semver">
     <a href="https://travis-ci.com/Tanibox/tania-core">
       <img src="https://travis-ci.com/Tanibox/tania-core.svg?branch=master" alt="Build Status">
