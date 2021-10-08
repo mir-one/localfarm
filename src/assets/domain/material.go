@@ -37,33 +37,6 @@ type PricePerUnit struct {
 
 func (p PricePerUnit) Symbol() string {
 	switch p.CurrencyCode {
-	case MoneyBTC:
-		return "₿"
-	default:
-		return ""
-	}
-}
-
-func (p PricePerUnit) Symbol() string {
-	switch p.CurrencyCode {
-	case MoneyRUB:
-		return "₽"
-	default:
-		return ""
-	}
-}
-
-func (p PricePerUnit) Symbol() string {
-	switch p.CurrencyCode {
-	case MoneyUSD:
-		return "$"
-	default:
-		return ""
-	}
-}
-
-func (p PricePerUnit) Symbol() string {
-	switch p.CurrencyCode {
 	case MoneyEUR:
 		return "€"
 	default:
