@@ -2,7 +2,7 @@
     <img src="resources/images/logobig.png" alt="Local Farm " width="200">
     <h1>The Farmer Journal</h1>
     <a href="https://t.me/mirlocalfarm"><img src="https://img.shields.io/badge/Telegram-blue.svg?logo=telegram&style=flat&label=chat%20on" alt="telegram"></a>
-    <img src="https://img.shields.io/badge/semver-1.7.2-green.svg?maxAge=2592000" alt="semver">
+    <img src="https://img.shields.io/badge/semver-1.0.0-green.svg?maxAge=2592000">
     <a href="https://opensource.org/licenses/Apache-2.0" target="_blank"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License"></a>
 </div>
 
@@ -14,7 +14,7 @@
 
 **Local Farm** - программное обеспечение для прогрессивного растениеводства с открытым исходным кодом. Управляйте агробизнесом, контролируйте уровень воды в резервуарах, составляйте списки задач, отслеживайте запасы и прогресс выращивания растений. Локальная ферма Подходит для закрытых и открытых типов ферм.
 
-Скачайте Локальную Ферму для Windows x64 и Linux x64 на [странице релиза](https://github.com/mir-one/localfarm/releases/tag/1.7.1).
+Скачайте Локальную Ферму для Windows x64 и Linux x64 на [странице релиза](https://github.com/mir-one/localfarm/releases/tag/1.0.0).
 
 ![Скриншот](screenshot.PNG)
 
@@ -46,15 +46,15 @@
 - [NodeJS](https://nodejs.org/en/) 8 or 10
 
 ### Инструкции по сборке
-1. Clone the repo using `git clone https://github.com/mir-one/localfarm.git`
-2. Checkout the current stable version by using `git checkout tags/1.7.2 -b v1.7.2`
-3. From the project root, call `go get` to install the Go dependencies.
-4. Create a new file `conf.json` using the values from the `conf.json.example` and set it with your own values.
-5. Issue `npm install` to install Vue.js dependencies.
-6. To build the Vue.js, just run `npm run dev` for development purpose or `npm run prod` for production purpose.
-7. Compile the source code with `go build`. It will produces `localfarm.exe` (on Windows) or `localfarm` (on Linux and OSX.)
-8. Run the program from Terminal by issuing `./localfarm`, or from Windows Command Prompt by issuing `.\localfarm.exe`.
-9. The default username and password are `localfarm / localfarm`.
+1. Запустите команду `git clone https://github.com/mir-one/localfarm.git`
+2. Проверьте текущую версию `git checkout tags/1.0.0 -b v1.0.0`
+3. Из корневого каталога проекта запустите команду `go get`, для установки зависимостей Go.
+4. Создайте файл `conf.json` используя значения из `conf.json.example` и измените его под ваши требования.
+5. Выполните `npm install`, чтобы установить зависимости Vue.js. 
+6. Чтобы собрать Vue.js, просто запустите `npm run dev` для разработки или `npm run prod` для рабочих целей. 
+7. Скомпилируйте исходный код с помощью `go build`. Команда создаст `localfarm.exe` (для Windows) или` localfarm` (для Linux и OSX).
+8. Запустите программу в терминале (для Linux и OSX) `./Localfarm`, или в командной строке Windows `.\Localfarm.exe`. 
+9. По-умолчанию установлен пароль и логин `localfarm / localfarm`.
 
 ### Ядро СУБД
 
@@ -86,10 +86,10 @@
 - Используйте `npm run cypress:run` для выполнения сквозного теста 
 
 ## REST APIs
-**Локальная Ферма** have REST APIs to easily integrate with any softwares, even you can build a mobile app client for it. You can import the JSON file inside Postman directory to [Postman app](https://www.getpostman.com).
+**Локальная Ферма** используем REST API для простой интеграции с любым программным обеспечением, вы даже можете создать для него клиентское мобильное приложение. Импортируйте файл JSON из каталога Postman в [Postman app](https://www.getpostman.com).
 
 ## Дорожная карта
-We want to share our high-level details of our roadmap, so that others can see our priorities in LocalFarm development. You can read our roadmap on [the wiki](https://github.com/mir-one/localfarm/wiki/Roadmap).
+Мы хотим поделиться нашей дорожной карты, чтобы другие могли видеть наши приоритеты в разработке Локальной Фермы. Вы можете прочитать нашу дорожную карту в [Wiki](https://github.com/mir-one/localfarm/wiki/Roadmap).
 
 ## Вклад в проект
 We welcome contributions, but request you to follow these [guidelines](contributing.md).
