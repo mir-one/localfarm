@@ -1021,8 +1021,8 @@ msgid "What is On Production"
 msgstr "What is On Production"
 
 #: resources/js/pages/home.vue:13
-msgid "You are using LocalFarm 1.7 right now"
-msgstr "You are using LocalFarm 1.7 right now"
+msgid "You are using LocalFarm 1.0 right now"
+msgstr "You are using LocalFarm 1.0 right now"
 
 #: resources/js/pages/home.vue:52
 msgid "Qty"
