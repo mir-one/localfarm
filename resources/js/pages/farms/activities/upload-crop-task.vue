@@ -10,7 +10,7 @@
             translate Choose photo
           UploadComponent(@fileSelelected="fileSelelected")
         .form-group
-          small.text-muted.pull-right (max. 200 char)
+          small.text-muted.pull-right (макс. 200 символов)
           label(for="description")
             translate Describe a bit about this photo
           textarea.form-control#description(type="text" :class="{'input': true, 'text-danger': errors.has('description') }" v-model="task.description" name="description" rows="3")
