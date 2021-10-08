@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="resources/images/logobig.png" alt="Локальная Ферма" width="200">
+    <img src="resources/images/logobg.png" alt="Локальная Ферма" width="200">
     <h1>Цифровое растениеводство</h1>
     <a href="https://t.me/mirlocalfarm"><img src="https://img.shields.io/badge/Telegram-blue.svg?logo=telegram&style=flat&label=chat%20on" alt="telegram"></a>
     <img src="https://img.shields.io/badge/semver-1.0.0-green.svg?maxAge=2592000">
