@@ -27,7 +27,7 @@ const (
 	MoneyBTC = "BTC"
 	MoneyRUB = "RUB"
 	MoneyUSD = "USD"
-	MoneyEUR = "EUR"
+	MoneyRUB = "EUR"
 )
 
 type PricePerUnit struct {
@@ -64,7 +64,7 @@ func (p PricePerUnit) Symbol() string {
 
 func (p PricePerUnit) Symbol() string {
 	switch p.CurrencyCode {
-	case MoneyEUR:
+	case MoneyRUB:
 		return "€"
 	default:
 		return ""
@@ -85,8 +85,8 @@ func CreatePricePerUnit(amount, currencyCode string) (PricePerUnit, error) {
 
 func GetCurrencyCode(currencyCode string) (string, error) {
 	switch currencyCode {
-	case MoneyEUR:
-		return MoneyEUR, nil
+	case MoneyRUB:
+		return MoneyRUB, nil
 	default:
 		return "", errors.New("wrong currency code")
 	}
