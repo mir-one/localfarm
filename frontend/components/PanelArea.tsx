@@ -52,12 +52,12 @@ const PanelArea = ({
             {size}
           </Col>
           <Col xs={4}>
-            <small className="text-muted">Batches</small>
+            <small className="text-muted">Партии</small>
             <br />
             {batches}
           </Col>
           <Col xs={4}>
-            <small className="text-muted">Quantity</small>
+            <small className="text-muted">Количество</small>
             <br />
             {quantity}
           </Col>
