@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 1.6.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-19 13:44+0800\n"
-"PO-Revision-Date: 2021-10-08 14:52+0300\n"
+"PO-Revision-Date: 2021-10-08 15:26+0300\n"
 "Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -239,7 +239,7 @@ msgstr "Category"
 
 #: resources/js/pages/inventories/materials-form-agrochemical.vue:14
 msgid "Chemical Type"
-msgstr "Chemical Type"
+msgstr "Тип химиката"
 
 #: resources/js/pages/farms/activities/dump-crop-task.vue:9
 msgid "Choose area"
@@ -478,7 +478,7 @@ msgstr "Наименование"
 
 #: resources/js/pages/farms/activities/harvest-crop-task.vue:56
 msgid "Kilograms"
-msgstr "Kilograms"
+msgstr "Килограмм"
 
 #: resources/js/pages/farms/crop.vue:84
 #: resources/js/pages/farms/crops-listing.vue:27
@@ -566,11 +566,11 @@ msgstr "НОРМАЛЬНО"
 #: resources/js/pages/farms/crop-notes.vue:39
 #: resources/js/pages/farms/reservoir.vue:45
 msgid "Notes"
-msgstr "Notes"
+msgstr "Заметки"
 
 #: resources/js/pages/farms/tasks/crop-task-form.vue:66
 msgid "Nutrient"
-msgstr "Nutrient"
+msgstr "Питательное вещество"
 
 #: resources/js/pages/farms/tasks/task-label.vue:12
 msgid "NUTRIENT"
@@ -622,7 +622,7 @@ msgstr "Partial"
 #: resources/js/pages/auth/login.vue:16
 #: resources/js/pages/settings/account.vue:27
 msgid "Password"
-msgstr "Password"
+msgstr "Пароль"
 
 #: resources/js/pages/intro/area.vue:4
 msgid "Perfect! Let's create a new area."
@@ -847,12 +847,12 @@ msgstr "Select source area"
 
 #: resources/js/components/header.vue:10
 msgid "Sign Out"
-msgstr "Sign Out"
+msgstr "Выйти"
 
 #: resources/js/pages/farms/areas-form.vue:25
 #: resources/js/pages/intro/area.vue:33
 msgid "Size"
-msgstr "Size"
+msgstr "Размер"
 
 #: resources/js/pages/farms/reservoirs-form.vue:18
 #: resources/js/pages/intro/reservoir.vue:25
@@ -866,7 +866,7 @@ msgstr "Source Type"
 
 #: resources/js/pages/farms/crops-listing.vue:24
 msgid "Status"
-msgstr "Status"
+msgstr "Статус"
 
 #: resources/js/pages/farms/activities/upload-crop-task.vue:4
 #: resources/js/pages/farms/crop.vue:68
@@ -876,19 +876,19 @@ msgstr "Сделать фотографию"
 #: resources/js/pages/farms/tasks/crop-task-form.vue:56
 #: resources/js/pages/farms/tasks/task-form.vue:50
 msgid "Task Category"
-msgstr "Task Category"
+msgstr "Категория задачи"
 
 #: resources/js/components/aside.vue:31 resources/js/pages/farms/area.vue:70
 #: resources/js/pages/farms/crop-notes.vue:27
 #: resources/js/pages/farms/reservoir.vue:69 resources/js/pages/home.vue:36
 #: resources/js/pages/home.vue:95 resources/js/pages/tasks/task.vue:22
 msgid "Tasks"
-msgstr "Tasks"
+msgstr "Задачи"
 
 #: resources/js/pages/farms/crop-notes.vue:18
 #: resources/js/pages/farms/crop.vue:27
 msgid "Tasks & Notes"
-msgstr "Tasks & Notes"
+msgstr "Задачи и заметки"
 
 #: resources/js/components/modal.vue:11
 msgid "This is the Modal Body"
@@ -900,16 +900,16 @@ msgstr "This is the Modal Header"
 
 #: resources/js/pages/tasks/task.vue:127
 msgid "This Month"
-msgstr "This Month"
+msgstr "Текущий месяц"
 
 #: resources/js/pages/tasks/task.vue:121
 msgid "This Week"
-msgstr "This Week"
+msgstr "Текущая неделя"
 
 #: resources/js/pages/farms/tasks/crop-task-form.vue:97
 #: resources/js/pages/farms/tasks/task-form.vue:73
 msgid "Title"
-msgstr "Title"
+msgstr "Наименование"
 
 #: resources/js/pages/farms/crop.vue:140 resources/js/pages/farms/crop.vue:219
 #: resources/js/pages/farms/tasks/task-list.vue:59
@@ -919,7 +919,7 @@ msgstr "to"
 #: resources/js/pages/farms/tasks/task-list.vue:35
 #: resources/js/pages/tasks/task.vue:115
 msgid "Today"
-msgstr "Today"
+msgstr "Сегодня"
 
 #: resources/js/pages/farms/areas-form.vue:44
 #: resources/js/pages/intro/area.vue:52
