@@ -117,7 +117,7 @@ export default {
     return {
       message: Object.assign({}, StubMessage),
       area: Object.assign({}, StubArea),
-      filename: 'No file chosen',
+      filename: 'Не выбрано файлов',
       options: {
         types: Array.from(AreaTypes),
         locations: Array.from(AreaLocations),
