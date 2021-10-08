@@ -121,6 +121,6 @@ Vue.use(GetTextPlugin, {
 
 Далее следуйте инструкции по [сборке Локальной Фермы](#Инструкции-по-сборке).
 
-## Copyright and License
+## Лицензия
 
 Авторские права на LocalFarm и других участников в соответствии с лицензией с открытым исходным кодом [Apache 2.0](https://github.com/mir-one/localfarm/blob/master/LICENSE).
