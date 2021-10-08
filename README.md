@@ -28,12 +28,8 @@
 * [REST APIs](#rest-apis)
 * [Дорожная карта](#Дорожная-карта)
 * [Вклад в проект](#Вклад-в-проект)
-    * [Локализация](#localisation)
-* [Поддержка](#support-us)
-    * [Backers](#backers)
-    * [Sponsors](#sponsors)
-* [Authors](#authors)
-* [Copyright and License](#copyright-and-license)
+    * [Перевод](#Перевод)
+* [Лицензия](#Лицензия)
 
 ## Начало
 
@@ -92,22 +88,22 @@
 Мы хотим поделиться нашей дорожной карты, чтобы другие могли видеть наши приоритеты в разработке Локальной Фермы. Вы можете прочитать нашу дорожную карту в [Wiki](https://github.com/mir-one/localfarm/wiki/Roadmap).
 
 ## Вклад в проект
-We welcome contributions, but request you to follow these [guidelines](contributing.md).
+Мы приветствуем вклад, но просим вас следовать этим [правилам](contributing.md).
 
-### Локализация
+### Перевод
 
-You can help us to localise LocalFarm into your language by following these steps:
+Вы можете помочь нам перевести Локальную Ферму на ваш язык, выполнив следующие действия: 
 
-1. Copy `languages/template.pot` and paste it to `languages/locale` directory.
-2. Rename it with your language locale code e.g: `en_AU.po`, `de_DE.po`, etc.
-3. Fill `msgstr` key with your translation. You can edit the `.po` file by using text editor or PO Edit software.
-4. Pull request your translation to the `master` branch.
+1. Скопируйте `languages/template.pot` и вставьте в каталог `languages/locale`.
+2. Переименуйте его, указав код языкового стандарта, например: : `en_AU.po`, `de_DE.po`, и т.п.
+3. Заполните ключ `msgstr` своим переводом. Вы можете редактировать файл `.po` с помощью текстового редактора или Poedit. 
+4. Отправьте запрос вашего перевода в ветку `master` 
 
-### Build LocalFarm localisation by yourself
+### Соберите перевод Локальной Фермы самостоятельно 
 
-**Note:** You will need to install GNU Gettext for your OS. Get it [here](https://www.gnu.org/software/gettext/).
+**Заметка:** Вам нужно будет установить GNU Gettext для вашей ОС. Скачать [здесь](https://www.gnu.org/software/gettext/).
 
-You can build LocalFarm in your language by changing the default language inside `resources/js/app.js`.
+Вы можете создать Локальную Ферму на своем языке, изменив язык по умолчанию внутри `resources/js/app.js`.
 
 ```
 Vue.use(GetTextPlugin, {
@@ -123,8 +119,8 @@ Vue.use(GetTextPlugin, {
 })
 ```
 
-Следуйте инструкции по [сборке Локальной Фермы](#Инструкции-по-сборке).
+Далее следуйте инструкции по [сборке Локальной Фермы](#Инструкции-по-сборке).
 
 ## Copyright and License
 
-Copyright to LocalFarm and other contributors under [Apache 2.0](https://github.com/mir-one/localfarm/blob/master/LICENSE) open source license.
+Авторские права на LocalFarm и других участников в соответствии с лицензией с открытым исходным кодом [Apache 2.0](https://github.com/mir-one/localfarm/blob/master/LICENSE).
