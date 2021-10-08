@@ -28,7 +28,7 @@
     "@storybook/addon-viewport": "^5.0.6",
     "@underdogio/mocha-webpack": "^2.0.0",
     "acorn": "^6.0.5",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.5",
     "babel-plugin-istanbul": "^5.1.0",
