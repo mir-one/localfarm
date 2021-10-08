@@ -1,19 +1,17 @@
-# Contributing to LocalFarm
+# Вклад в проект Локальная Ферма
 
-We welcome contributions, but request you to follow these guidelines.
+Мы приветствуем вклады, но просим вас следовать этим правилам.
 
-This project adheres to the [Contributor Covenant 1.4](code-of-conduct.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to [dao@mir.one](mailto:dao@mir.one).
+Этот проект придерживается [Соглашения авторов 1.4](code-of-conduct.md). Участвуя, вы должны соблюдать этот кодекс. Сообщите о недопустимом поведении по адресу [dao@mir.one] (mailto: dao@mir.one).
 
-## Raising Issues
+## Возникновение проблем
 
-Please raise any bug reports on [LocalFarm's Github issue trackers](https://github.com/mir-one/localfarm/issues). Be sure to search the list to see if your issue has already been raised.
+Сообщайте о любых ошибках в [трекерах вопросах Github Локальная Ферма](https://github.com/mir-one/localfarm/issues). Обязательно выполните поиск по списку, чтобы узнать, не поднимались ли вопросы о вашей проблеме.
 
-A good bug report is one that make it easy to understand what you were trying to do and what went wrong.
+## Запросы функций
 
-## Feature requests
-
-For feature requests, please raise and discuss them on [LocalFarm's Telegram group](https://t.me/mirlocalfarm).
+Для запросов функций поднимайте и обсуждайте их в [группе Telegram Локальная Ферма](https://t.me/mirlocalfarm).
 
 ## Pull-Requests
 
-If you want to raise a pull-request with a new feature, or refactoring of existing code, please, discuss it first on [LocalFarm's Telegram group](https://t.me/mirlocalfarm).
+Если вы хотите создать пул-реквест с новой функцией или рефакторингом существующего кода, пожалуйста, сначала обсудите это в [группе Telegram Локальная Ферма](https://t.me/mirlocalfarm). 
