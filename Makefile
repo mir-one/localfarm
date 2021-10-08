@@ -14,7 +14,7 @@ INPUT_FILES = ./resources/js
 OUTPUT_DIR = ./languages
 
 # Available locales for the app.
-LOCALES = en_GB id_ID hu_HU
+LOCALES = en_GB id_ID hu_HU ru_RU
 
 # Name of the generated .po files for each available locale.
 LOCALE_FILES ?= $(patsubst %,$(OUTPUT_DIR)/locale/app.po, $(LOCALES))
