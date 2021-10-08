@@ -1,12 +1,12 @@
 export const InventoryTypes = [
-  { key: 'seed',  label: 'Seed' },
-  { key: 'growing_medium', label: 'Growing Medium' },
-  { key: 'agrochemical', label: 'Agrochemical' },
+  { key: 'seed',  label: 'Семя' },
+  { key: 'growing_medium', label: 'Саженец' },
+  { key: 'agrochemical', label: 'Агрохимия' },
   { key: 'label_and_crop_support', label: 'Label and Crop Support' },
-  { key: 'seeding_container', label: 'Seeding Container' },
-  { key: 'post_harvest_supply', label: 'Post Harvest Supply' },
-  { key: 'plant', label: 'Plant' },
-  { key: 'other', label: 'Other Material' },
+  { key: 'seeding_container', label: 'Контейнер для проращивания' },
+  { key: 'post_harvest_supply', label: 'Отправка после сбора урожая' },
+  { key: 'plant', label: 'Растение' },
+  { key: 'other', label: 'Другие материалы' },
 ]
 
 export function FindInventoryType(key) {
@@ -15,10 +15,10 @@ export function FindInventoryType(key) {
 }
 
 export const QuantityUnits = [
-  { key: 'SEEDS',  label: 'Seeds' },
-  { key: 'PACKETS', label: 'Packets' },
-  { key: 'GRAM', label: 'Gram' },
-  { key: 'KILOGRAM', label: 'Kilogram' },
+  { key: 'SEEDS',  label: 'Семена' },
+  { key: 'PACKETS', label: 'Пакеты' },
+  { key: 'GRAM', label: 'Грамм' },
+  { key: 'KILOGRAM', label: 'Килограмм' },
 ]
 
 export function FindQuantityUnit(key) {
@@ -27,9 +27,9 @@ export function FindQuantityUnit(key) {
 }
 
 export const AgrochemicalQuantityUnits = [
-  { key: 'PACKETS',  label: 'Packets' },
-  { key: 'BOTTLES', label: 'Bottles' },
-  { key: 'BAGS', label: 'Bags' },
+  { key: 'PACKETS',  label: 'Пакеты' },
+  { key: 'BOTTLES', label: 'Бутылки' },
+  { key: 'BAGS', label: 'Мешки' },
 ]
 
 export function FindAgrochemicalQuantityUnit(key) {
@@ -38,11 +38,11 @@ export function FindAgrochemicalQuantityUnit(key) {
 }
 
 export const ChemicalTypes = [
-  { key: 'DISINFECTANT',  label: 'Disinfectant & Sanitizer' },
-  { key: 'FERTILIZER', label: 'Fertilizer' },
-  { key: 'HORMONE', label: 'Hormone & Growth Agent' },
-  { key: 'MANURE', label: 'Manure' },
-  { key: 'PESTICIDE', label: 'Pesticide' },
+  { key: 'DISINFECTANT',  label: 'Дезинфицирующее средство' },
+  { key: 'FERTILIZER', label: 'Удобрение' },
+  { key: 'HORMONE', label: 'Гормон и активатор роста' },
+  { key: 'MANURE', label: 'Навоз' },
+  { key: 'PESTICIDE', label: 'Пестицид' },
 ]
 
 export function FindChemicalType(key) {
@@ -51,8 +51,8 @@ export function FindChemicalType(key) {
 }
 
 export const GrowingMediumQuantityUnits = [
-  { key: 'BAGS',  label: 'Bags' },
-  { key: 'CUBIC_METRE', label: 'Cubic Metre' },
+  { key: 'BAGS',  label: 'Мешки' },
+  { key: 'CUBIC_METRE', label: 'Кубический метр' },
 ]
 
 export function FindGrowingMediumQuantityUnit(key) {
