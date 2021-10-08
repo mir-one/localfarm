@@ -64,7 +64,7 @@ func (p PricePerUnit) Symbol() string {
 
 func (p PricePerUnit) Symbol() string {
 	switch p.CurrencyCode {
-	case MoneyRUB:
+	case MoneyEUR:
 		return "€"
 	default:
 		return ""
