@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 1.6.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-19 13:44+0800\n"
-"PO-Revision-Date: 2021-10-08 14:08+0300\n"
+"PO-Revision-Date: 2021-10-08 14:20+0300\n"
 "Language: en_GB\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -385,11 +385,11 @@ msgstr "Farm Type"
 
 #: resources/js/pages/farms/tasks/task-label.vue:7
 msgid "FINANCE"
-msgstr "FINANCE"
+msgstr "ФИНАНСЫ"
 
 #: resources/js/pages/intro/area.vue:95
 msgid "Finish Setup"
-msgstr "Finish Setup"
+msgstr "Закончить настройку"
 
 #: resources/js/pages/farms/crop.vue:139
 msgid "from"
@@ -407,7 +407,7 @@ msgstr "GENERAL"
 #: resources/js/pages/farms/activities/harvest-crop-task.vue:53
 #: resources/js/pages/farms/crop.vue:192
 msgid "Grams"
-msgstr "Grams"
+msgstr "Грамм"
 
 #: resources/js/pages/farms/areas.vue:25
 msgid "Grow Batches"
@@ -495,7 +495,7 @@ msgstr "Locations"
 
 #: resources/js/pages/auth/login.vue:22
 msgid "Login"
-msgstr "Login"
+msgstr "Логин"
 
 #: resources/js/components/footer.vue:6
 msgid "Made for the &#9829; of plants &copy; 2019 Copyright."
@@ -533,7 +533,7 @@ msgstr "Имя"
 #: resources/js/pages/farms/tasks/crop-task-form.vue:33
 #: resources/js/pages/farms/tasks/task-form.vue:42
 msgid "No"
-msgstr "No"
+msgstr "Нет"
 
 #: resources/js/pages/farms/crops-listing.vue:35
 msgid "No crops available."
@@ -558,7 +558,7 @@ msgstr "Normal"
 
 #: resources/js/pages/farms/tasks/task-label.vue:14
 msgid "NORMAL"
-msgstr "NORMAL"
+msgstr "НОРМАЛЬНО"
 
 #: resources/js/pages/farms/activities/dump-crop-task.vue:26
 #: resources/js/pages/farms/activities/harvest-crop-task.vue:64
@@ -1021,12 +1021,12 @@ msgid "What is On Production"
 msgstr "What is On Production"
 
 #: resources/js/pages/home.vue:13
-msgid "You are using LocalFarm 1.7 right now"
-msgstr "You are using LocalFarm 1.7 right now"
+msgid "You are using LocalFarm 1.0 right now"
+msgstr "You are using LocalFarm 1.0 right now"
 
 #: resources/js/pages/home.vue:52
 msgid "Qty"
-msgstr "Qty"
+msgstr "Кол-во"
 
 #: resources/js/pages/farms/crops.vue:20
 msgid "Add New Batch"
@@ -1034,8 +1034,8 @@ msgstr "Add New Batch"
 
 #: resources/js/pages/auth/login.vue:23
 msgid "Input your username here"
-msgstr "Input your username here"
+msgstr "Введите ваше имя"
 
 #: resources/js/pages/auth/login.vue:37
 msgid "Your password here"
-msgstr "Your password here"
+msgstr "Ваш пароль"
