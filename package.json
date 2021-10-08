@@ -68,7 +68,7 @@
     "nightwatch": "^1.0.18",
     "node-sass": "^4.11.0",
     "nyc": "^11.4.1",
-    "pug": "^2.0.3",
+    "pug": ">=3.0.1",
     "pug-plain-loader": "^1.0.0",
     "purgecss-webpack-plugin": "^1.4.0",
     "raw-loader": "^1.0.0",
