@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="resources/images/logobig.png" alt="LocalFarm The Farmer Journal" width="200">
+    <img src="resources/images/logobig.png" alt="Local Farm " width="200">
     <h1>The Farmer Journal</h1>
     <a href="https://t.me/mirlocalfarm"><img src="https://img.shields.io/badge/Telegram-blue.svg?logo=telegram&style=flat&label=chat%20on" alt="telegram"></a>
     <img src="https://img.shields.io/badge/semver-1.7.2-green.svg?maxAge=2592000" alt="semver">
@@ -8,29 +8,28 @@
 
 # Внимание
 
-Это ветка разработки LocalFarm. Изменения могут происходить ежедневно. Если вам нужна стабильная версия, вы можете открыть [эту ветку](https://github.com/mir-one/localfarm/tree/master).
+Это ветка разработки проекта Локальная Ферма. Изменения могут происходить ежедневно. Если вам нужна стабильная версия, вы можете открыть [эту ветку](https://github.com/mir-one/localfarm/tree/master).
 
 ---
 
-**LocalFarm** - программное обеспечение для прогрессивного растениеводства с открытым исходным кодом. Управление агробизнесом, контроль уровня воды в резервуарах, список задач, запасы и прогресс выращивания растений. Подходит для закрытых и открытых типов ферм.
+**Local Farm** - программное обеспечение для прогрессивного растениеводства с открытым исходным кодом. Управляйте агробизнесом, контролируйте уровень воды в резервуарах, составляйте списки задач, отслеживайте запасы и прогресс выращивания растений. Локальная ферма Подходит для закрытых и открытых типов ферм.
 
-Скачайте LocalFarm для Windows x64 и Linux x64 на [странице релиза](https://github.com/mir-one/localfarm/releases/tag/1.7.1).
+Скачайте Локальную Ферму для Windows x64 и Linux x64 на [странице релиза](https://github.com/mir-one/localfarm/releases/tag/1.7.1).
 
 ![Скриншот](screenshot.PNG)
 
 ## Оглавление
 
 * [Начало](#Начало)
-    * [Требования](#prerequisites)
-    * [Инструкции по сборке](#building-instructions)
-    * [Ядро СУБД](#database-engine)
-    * [Запуск тестирования](#run-the-test)
+    * [Требования](#Требования)
+    * [Инструкции по сборке](#Инструкции-по-сборке)
+    * [Ядро СУБД](#Ядро-СУБД)
+    * [Запуск тестирования](#Запуск-тестирования)
 * [REST APIs](#rest-apis)
-* [Дорожная карта](#roadmap)
-* [Contributing to LocalFarm](#contributing-to-localfarm)
-    * [Localisation](#localisation)
-* [Support Us](#support-us)
-    * [Contributors](#contributors)
+* [Дорожная карта](#Дорожная-карта)
+* [Вклад в проект](#Вклад-в-проект)
+    * [Локализация](#localisation)
+* [Поддержка](#support-us)
     * [Backers](#backers)
     * [Sponsors](#sponsors)
 * [Authors](#authors)
@@ -38,9 +37,9 @@
 
 ## Начало
 
-Это программное обеспечение создано на языке программирования [Go](https://golang.org). Это означает, что вы получите исполняемый двоичный файл для запуска на вашем компьютере. Вам **не нужно** дополнительное программное обеспечение, такое как MAMP, XAMPP или WAMP для запуска **LocalFarm**, но вам может потребоваться база данных MySQL, если вы решите использовать ее вместо SQLite *(база данных по умолчанию).*
+Это программное обеспечение создано на языке программирования [Go](https://golang.org). Это означает, что вы получите исполняемый двоичный файл для запуска на вашем компьютере. Вам **не нужно** дополнительное программное обеспечение, такое как MAMP, XAMPP или WAMP для запуска проекта **Локальная Ферма**, но вам может потребоваться база данных MySQL, если вы решите использовать ее вместо SQLite *(база данных по умолчанию).*
 
-Если ваша ОС не указана на странице релизов, вам придется самостоятельно собрать LocalFarm для своей ОС. Вы можете следовать нашим инструкциям по созданию **LocalFarm**. 
+Если ваша ОС не указана на странице релизов, вам придется самостоятельно собрать проект Локальная Ферма для своей ОС. Вы можете следовать нашим инструкциям по сборке **Локальной Фермы**. 
 
 ### Требования
 - [Go](https://golang.org) >= 1.11
@@ -59,7 +58,7 @@
 
 ### Ядро СУБД
 
-LocalFarm uses SQLite as the default database engine. You may use MySQL as your database engine by replacing `sqlite` with `mysql` at `localfarm_persistence_engine` field in your `conf.json`.
+Локальная Ферма uses SQLite as the default database engine. You may use MySQL as your database engine by replacing `sqlite` with `mysql` at `localfarm_persistence_engine` field in your `conf.json`.
 
 ```
 {
@@ -87,15 +86,15 @@ LocalFarm uses SQLite as the default database engine. You may use MySQL as your 
 - Use `npm run cypress:run` to run the end-to-end test
 
 ## REST APIs
-**LocalFarm** have REST APIs to easily integrate with any softwares, even you can build a mobile app client for it. You can import the JSON file inside Postman directory to [Postman app](https://www.getpostman.com).
+**Локальная Ферма** have REST APIs to easily integrate with any softwares, even you can build a mobile app client for it. You can import the JSON file inside Postman directory to [Postman app](https://www.getpostman.com).
 
 ## Дорожная карта
 We want to share our high-level details of our roadmap, so that others can see our priorities in LocalFarm development. You can read our roadmap on [the wiki](https://github.com/mir-one/localfarm/wiki/Roadmap).
 
-## Contributing to LocalFarm
+## Вклад в проект
 We welcome contributions, but request you to follow these [guidelines](contributing.md).
 
-### Localisation
+### Локализация
 
 You can help us to localise LocalFarm into your language by following these steps:
 
@@ -124,29 +123,6 @@ Vue.use(GetTextPlugin, {
 ```
 
 Then follow the instruction to [build LocalFarm](#building-instructions).
-
-## Support Us
-
-You can become a backer or a sponsor for LocalFarm through our [Open Collective page](https://opencollective.com/mir-one).
-
-You can also support LocalFarm development by buying the merchandise from [LocalFarm Swag Store](https://teespring.com/stores/localfarm).
-
-### Contributors
-
-This project exists thanks to all the people who contribute.
-<a href="https://github.com/mir-one/localfarm/graphs/contributors"><img src="https://opencollective.com/mir-one/contributors.svg?width=890&button=false" /></a>
-
-### Backers
-
-Become a backer with a monthly donation and help us continue our activities. <a href="https://opencollective.com/mir-one"><img src="https://opencollective.com/mir-one/backers.svg?width=890&button=false" alt="backers"><img src="https://opencollective.com/mir-one/tiers/backer.svg?avatarHeight=36&width=600" alt="backers"></a>
-
-### Sponsors
-
-Become a sponsor and get your logo on our README on GitHub with a link to your site. <a href="https://opencollective.com/mir-one"><img src="https://opencollective.com/mir-one/tiers/sponsor.svg?avatarHeight=36&width=600" alt="backers"></a>
-
-## Authors
-
-LocalFarm is a project of [LocalFarm](https://mir.one/localfarm).
 
 ## Copyright and License
 
