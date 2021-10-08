@@ -40,8 +40,9 @@ Vue.use(GetTextPlugin, {
     id_ID: 'Bahasa Indonesia',
     hu_HU: 'Magyar Nyelv',
     pt_BR: 'Brazilian Portuguese',
+    ru_RU: 'Русский',
   },
-  defaultLanguage: 'en_GB',
+  defaultLanguage: 'ru_RU',
   translations,
   silent: false,
 });
