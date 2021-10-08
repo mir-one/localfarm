@@ -150,7 +150,7 @@ export default {
 
 <style lang="scss" scoped>
 aside#aside {
-  background-color: #513969;
+  background-color: #22272e;
   height: 100%;
 
   .brand-image {
