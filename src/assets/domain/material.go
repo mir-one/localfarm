@@ -24,13 +24,42 @@ type Material struct {
 }
 
 const (
+	MoneyBTC = "BTC"
+	MoneyRUB = "RUB"
+	MoneyUSD = "USD"
 	MoneyEUR = "EUR"
-	MoneyIDR = "IDR"
 )
 
 type PricePerUnit struct {
 	Amount       string `json:"amount"`
 	CurrencyCode string `json:"code"`
+}
+
+func (p PricePerUnit) Symbol() string {
+	switch p.CurrencyCode {
+	case MoneyBTC:
+		return "₿"
+	default:
+		return ""
+	}
+}
+
+func (p PricePerUnit) Symbol() string {
+	switch p.CurrencyCode {
+	case MoneyRUB:
+		return "₽"
+	default:
+		return ""
+	}
+}
+
+func (p PricePerUnit) Symbol() string {
+	switch p.CurrencyCode {
+	case MoneyUSD:
+		return "$"
+	default:
+		return ""
+	}
 }
 
 func (p PricePerUnit) Symbol() string {
