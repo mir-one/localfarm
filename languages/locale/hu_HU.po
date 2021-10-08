@@ -1012,7 +1012,7 @@ msgstr "A LocalFarm 1.7-ot használod."
 msgid "Your password here"
 msgstr ""
 
-#~ msgid "&euro;"
+#~ msgid "&rub;"
 #~ msgstr "Ft"
 
 #~ msgid "All Growing Batches on This Farm"
