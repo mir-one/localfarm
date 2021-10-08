@@ -114,9 +114,10 @@ Vue.use(GetTextPlugin, {
   availableLanguages: { // добавьте ваш язык здесь
     en_GB: 'British English',
     id_ID: 'Bahasa Indonesia',
-    hu_HU: 'Magyar Nyelv'
+    hu_HU: 'Magyar Nyelv',
+    ru_RU: 'Русский'
   },
-  defaultLanguage: 'en_GB', // Измените язык приложения по-умолчанию
+  defaultLanguage: 'ru_RU', // Измените язык приложения по-умолчанию
   translations: translations,
   silent: false
 })
