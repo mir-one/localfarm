@@ -46,10 +46,10 @@
 - [NodeJS](https://nodejs.org/en/) 8 or 10
 
 ### Инструкции по сборке
-1. Запустите команду `git clone https://github.com/mir-one/localfarm.git`
+1. Выполните команду `git clone https://github.com/mir-one/localfarm.git`
 2. Проверьте текущую версию `git checkout tags/1.0.0 -b v1.0.0`
 3. Из корневого каталога проекта запустите команду `go get`, для установки зависимостей Go.
-4. Создайте файл `conf.json` используя значения из `conf.json.example` и измените его под ваши требования.
+4. Создайте файл `conf.json` используя значения из `conf.json.example` или измените его под ваши требования.
 5. Выполните `npm install`, чтобы установить зависимости Vue.js. 
 6. Чтобы собрать Vue.js, просто запустите `npm run dev` для разработки или `npm run prod` для рабочих целей. 
 7. Скомпилируйте исходный код с помощью `go build`. Команда создаст `localfarm.exe` (для Windows) или` localfarm` (для Linux и OSX).
@@ -86,7 +86,7 @@
 - Используйте `npm run cypress:run` для выполнения сквозного теста 
 
 ## REST APIs
-**Локальная Ферма** используем REST API для простой интеграции с любым программным обеспечением, вы даже можете создать для него клиентское мобильное приложение. Импортируйте файл JSON из каталога Postman в [Postman app](https://www.getpostman.com).
+**Локальная Ферма** использует REST API для простой интеграции с любым программным обеспечением, вы даже можете создать для него клиентское мобильное приложение. Импортируйте файл JSON из каталога Postman в [Postman app](https://www.getpostman.com).
 
 ## Дорожная карта
 Мы хотим поделиться нашей дорожной карты, чтобы другие могли видеть наши приоритеты в разработке Локальной Фермы. Вы можете прочитать нашу дорожную карту в [Wiki](https://github.com/mir-one/localfarm/wiki/Roadmap).
@@ -123,7 +123,7 @@ Vue.use(GetTextPlugin, {
 })
 ```
 
-Then follow the instruction to [build LocalFarm](#building-instructions).
+Следуйте инструкции по [сборке Локальной Фермы](#Инструкции-по-сборке).
 
 ## Copyright and License
 
