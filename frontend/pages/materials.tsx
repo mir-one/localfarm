@@ -94,20 +94,20 @@ const Material: NextPage = () => {
       >
         <>
           <small className="text-muted">
-            Material is a consumable product using in your farm such as seeds,
-            growing medium, fertilizer, pesticide, and so on.
+          Материал - это расходный продукт, который используется на вашей ферме, например, семена,
+             питательная среда, удобрения, пестициды и т. д. 
           </small>
           <Form className="mt-3">
             <Form.Group className="mb-3">
-              <Form.Label>Choose type of material</Form.Label>
+              <Form.Label>Выберите тип посадочного материала</Form.Label>
               <Form.Select onChange={(e) => setMaterialType(e.target.value)}>
-                <option value="1">Seed</option>
-                <option value="2">Growing Medium</option>
-                <option value="3">Agrochemical</option>
+                <option value="1">Семена</option>
+                <option value="2">Саженцы</option>
+                <option value="3">Агрохимия</option>
                 <option value="4">Label and Crops Support</option>
-                <option value="5">Seeding Container</option>
-                <option value="6">Post Harvest Supply</option>
-                <option value="7">Plant</option>
+                <option value="5">Контейнер для посева</option>
+                <option value="6">Отправка после сбора урожая</option>
+                <option value="7">Растение </option>
                 <option value="8">Other Material</option>
               </Form.Select>
             </Form.Group>
@@ -177,10 +177,10 @@ const Material: NextPage = () => {
                   <Form.Select
                     onChange={(e) => setMaterialType(e.target.value)}
                   >
-                    <option value="1">Seeds</option>
-                    <option value="2">Packets</option>
-                    <option value="3">Gram</option>
-                    <option value="4">Kilogram</option>
+                    <option value="1">Семена</option>
+                    <option value="2">Пакет</option>
+                    <option value="3">Грамм</option>
+                    <option value="4">Килограмм</option>
                   </Form.Select>
                 </Col>
               </Row>
