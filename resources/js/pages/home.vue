@@ -10,7 +10,7 @@
     .col-xs-12.col-sm-12.col-md-6
       b-card(
         :title="$gettext('At A Glance')"
-        :footer="$gettext('You are using LocalFarm 1.7 right now')"
+        :footer="$gettext('You are using LocalFarm 1.0 right now')"
         class="card-ui"
       )
         .row
