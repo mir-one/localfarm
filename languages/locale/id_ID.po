@@ -25,7 +25,7 @@ msgstr ""
 #: resources/js/pages/inventories/materials-form-potharvest.vue:27
 #: resources/js/pages/inventories/materials-form-seed.vue:53
 #: resources/js/pages/inventories/materials-form-seedcontainer.vue:29
-msgid "&euro;"
+msgid "&rub;"
 msgstr ""
 
 #: resources/js/components/aside.vue:48
