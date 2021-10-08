@@ -1,16 +1,16 @@
 export const AreaTypes = [
-  { key: 'SEEDING', label: 'Seeding' },
-  { key: 'GROWING', label: 'Growing' },
+  { key: 'SEEDING', label: 'Посев' },
+  { key: 'GROWING', label: 'Выращивание' },
 ];
 
 export const AreaLocations = [
-  { key: 'OUTDOOR', label: 'Field (Outdoor)' },
-  { key: 'INDOOR', label: 'Greenhouse (Indoor)' },
+  { key: 'OUTDOOR', label: 'Поле (Outdoor)' },
+  { key: 'INDOOR', label: 'Теплица (Indoor)' },
 ];
 
 export const AreaSizeUnits = [
-  { key: 'Ha', label: 'Ha' },
-  { key: 'm2', label: 'm2' },
+  { key: 'Ha', label: 'Га' },
+  { key: 'm2', label: 'м2' },
 ];
 
 export function FindAreaType(key) {
