@@ -24,7 +24,7 @@ type Material struct {
 }
 
 const (
-	MoneyEUR = "RUB"
+	MoneyRUB = "RUB"
 )
 
 type PricePerUnit struct {
