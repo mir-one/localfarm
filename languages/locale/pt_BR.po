@@ -1009,7 +1009,7 @@ msgstr "Você está usando LocalFarm 1.6 nesse momento."
 msgid "Your password here"
 msgstr ""
 
-#~ msgid "&euro;"
+#~ msgid "&rub;"
 #~ msgstr "R$"
 
 #~ msgid "All Growing Batches on This Farm"
