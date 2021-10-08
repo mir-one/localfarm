@@ -31,7 +31,7 @@ const Layout = ({ children }: iLayout) => {
           <Navbar.Toggle />
           <Navbar.Collapse>
             <Nav className="d-none d-md-block">
-              <Nav.Link>Demo Farm</Nav.Link>
+              <Nav.Link>Демонстрационная ферма</Nav.Link>
             </Nav>
             <Nav className="d-md-none">
               {navData &&
@@ -52,7 +52,7 @@ const Layout = ({ children }: iLayout) => {
                 <div className="d-flex align-items-center">
                   <FaPowerOff className="me-3" />
                   <Link href="/">
-                    <span className="text-decoration-none">Sign Out</span>
+                    <span className="text-decoration-none">Выйти</span>
                   </Link>
                 </div>
               </Nav.Link>
