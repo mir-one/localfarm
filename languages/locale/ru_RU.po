@@ -8,12 +8,12 @@ msgstr ""
 "Project-Id-Version: 1.6.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-19 13:44+0800\n"
-"PO-Revision-Date: 2021-10-08 14:39+0300\n"
+"PO-Revision-Date: 2021-10-08 14:52+0300\n"
 "Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator:  Роман Иноземцев <rinozemtsev@mir.one> \n"
+"Last-Translator: Роман Иноземцев <rinozemtsev@mir.one>\n"
 "Language-Team: \n"
 "X-Generator: Poedit 2.2.4\n"
 
@@ -693,7 +693,7 @@ msgstr "pot or anything that describes the different physical locations in your 
 
 #: resources/js/pages/inventories/materials.vue:24
 msgid "Price"
-msgstr "Price"
+msgstr "Цена"
 
 #: resources/js/pages/inventories/materials-form-agrochemical.vue:22
 #: resources/js/pages/inventories/materials-form-growingmedium.vue:32
@@ -704,11 +704,11 @@ msgstr "Price"
 #: resources/js/pages/inventories/materials-form-seed.vue:50
 #: resources/js/pages/inventories/materials-form-seedcontainer.vue:26
 msgid "Price per Unit"
-msgstr "Price per Unit"
+msgstr "Цена за единицу"
 
 #: resources/js/pages/tasks/task.vue:74
 msgid "Priority"
-msgstr "Priority"
+msgstr "Приоритет"
 
 #: resources/js/pages/inventories/materials-form-agrochemical.vue:62
 #: resources/js/pages/inventories/materials-form-growingmedium.vue:41
@@ -718,11 +718,11 @@ msgstr "Priority"
 #: resources/js/pages/inventories/materials-form-seed.vue:22
 #: resources/js/pages/inventories/materials-form-seedcontainer.vue:48
 msgid "Produced by"
-msgstr "Produced by"
+msgstr "Произведено"
 
 #: resources/js/pages/inventories/materials.vue:27
 msgid "Produced By"
-msgstr "Produced By"
+msgstr "Произведено"
 
 #: resources/js/pages/farms/activities/harvest-crop-task.vue:41
 #: resources/js/pages/farms/crops-listing.vue:18
@@ -746,24 +746,24 @@ msgstr "Read details"
 #: resources/js/pages/farms/tasks/task-form.vue:60
 #: resources/js/pages/tasks/task.vue:59
 msgid "Reservoir"
-msgstr "Reservoir"
+msgstr "Резервуар"
 
 #: resources/js/pages/farms/tasks/task-label.vue:5
 msgid "RESERVOIR"
-msgstr "RESERVOIR"
+msgstr "РЕЗЕРВУАР"
 
 #: resources/js/pages/farms/reservoirs-form.vue:7
 msgid "Reservoir is a water source for your farm. It can be a direct line from well, or water tank that has volume/capacity."
-msgstr "Reservoir is a water source for your farm. It can be a direct line from well, or water tank that has volume/capacity."
+msgstr "Резервуар - это источник воды для вашей фермы. Это может быть прямая линия от колодца или емкость для воды, имеющая объем / емкость."
 
 #: resources/js/pages/farms/reservoirs-form.vue:12
 #: resources/js/pages/intro/reservoir.vue:19
 msgid "Reservoir Name"
-msgstr "Reservoir Name"
+msgstr "Имя резервуара"
 
 #: resources/js/components/aside.vue:24
 msgid "Reservoirs"
-msgstr "Reservoirs"
+msgstr "Резервуары"
 
 #: resources/js/pages/farms/tasks/task-label.vue:6
 msgid "SAFETY"
@@ -1022,7 +1022,7 @@ msgstr "Что сейчас на производстве"
 
 #: resources/js/pages/home.vue:13
 msgid "You are using LocalFarm 1.0 right now"
-msgstr "You are using LocalFarm 1.0 right now"
+msgstr "Вы используете программу Локальная Ферма 1.0"
 
 #: resources/js/pages/home.vue:52
 msgid "Qty"
@@ -1030,7 +1030,7 @@ msgstr "Кол-во"
 
 #: resources/js/pages/farms/crops.vue:20
 msgid "Add New Batch"
-msgstr "Add New Batch"
+msgstr "Добавить новую партию"
 
 #: resources/js/pages/auth/login.vue:23
 msgid "Input your username here"
