@@ -58,7 +58,7 @@
 
 ### Ядро СУБД
 
-Локальная Ферма uses SQLite as the default database engine. You may use MySQL as your database engine by replacing `sqlite` with `mysql` at `localfarm_persistence_engine` field in your `conf.json`.
+Локальная Ферма использует SQLite в качестве базы данных по-умолчанию. Вы можете использовать MySQL в качестве базы данных, заменив `sqlite` на `mysql` в поле `localfarm_persistence_engine` в вашем `conf.json'. 
 
 ```
 {
@@ -82,8 +82,8 @@
 ```
 
 ### Запуск тестирования
-- Use `go test ./...` to run all the Go tests.
-- Use `npm run cypress:run` to run the end-to-end test
+- Используйте `go test ./...` для запуска всех тестов Go .
+- Используйте `npm run cypress:run` для выполнения сквозного теста 
 
 ## REST APIs
 **Локальная Ферма** have REST APIs to easily integrate with any softwares, even you can build a mobile app client for it. You can import the JSON file inside Postman directory to [Postman app](https://www.getpostman.com).
@@ -111,12 +111,12 @@ You can build LocalFarm in your language by changing the default language inside
 
 ```
 Vue.use(GetTextPlugin, {
-  availableLanguages: { // add your language here
+  availableLanguages: { // добавьте ваш язык здесь
     en_GB: 'British English',
     id_ID: 'Bahasa Indonesia',
     hu_HU: 'Magyar Nyelv'
   },
-  defaultLanguage: 'en_GB', // change this to your language
+  defaultLanguage: 'en_GB', // Измените язык приложения по-умолчанию
   translations: translations,
   silent: false
 })
