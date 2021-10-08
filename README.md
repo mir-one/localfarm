@@ -1,6 +1,6 @@
 <div align="center">
-    <img src="resources/images/logobig.png" alt="Local Farm " width="200">
-    <h1>The Farmer Journal</h1>
+    <img src="resources/images/logobig.png" alt="Локальная Ферма" width="200">
+    <h1>Цифровое растениеводство</h1>
     <a href="https://t.me/mirlocalfarm"><img src="https://img.shields.io/badge/Telegram-blue.svg?logo=telegram&style=flat&label=chat%20on" alt="telegram"></a>
     <img src="https://img.shields.io/badge/semver-1.0.0-green.svg?maxAge=2592000">
     <a href="https://opensource.org/licenses/Apache-2.0" target="_blank"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License"></a>
@@ -12,7 +12,7 @@
 
 ---
 
-**Local Farm** - программное обеспечение для прогрессивного растениеводства с открытым исходным кодом. Управляйте агробизнесом, контролируйте уровень воды в резервуарах, составляйте списки задач, отслеживайте запасы и прогресс выращивания растений. Локальная ферма Подходит для закрытых и открытых типов ферм.
+**Локальная Ферма** - программное обеспечение для прогрессивного растениеводства с открытым исходным кодом. Управляйте агробизнесом, контролируйте уровень воды в резервуарах, составляйте списки задач, отслеживайте запасы и прогресс выращивания растений. Локальная ферма подходит для закрытых и открытых типов ферм.
 
 Скачайте Локальную Ферму для Windows x64 и Linux x64 на [странице релиза](https://github.com/mir-one/localfarm/releases/tag/1.0.0).
 
