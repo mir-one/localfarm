@@ -48,8 +48,8 @@ const ReservoirDetail: NextPage = () => {
       <Row>
         <Col>
           <h3 className="pb-3">
-            Organic Lettuce
-            <small className="ms-2 text-muted">Growing</small>
+            Органический салат
+            <small className="ms-2 text-muted">Рост</small>
           </h3>
         </Col>
       </Row>
@@ -78,24 +78,24 @@ const ReservoirDetail: NextPage = () => {
               <Card.Title>Basic Info</Card.Title>
               <ListGroup>
                 <ListGroup.Item>
-                  <span className="text-muted">Area Size Ha</span>
+                  <span className="text-muted">Площадь Га</span>
                   <span className="ms-3">1</span>
                 </ListGroup.Item>
                 <ListGroup.Item>
-                  <span className="text-muted">Location</span>
-                  <span className="ms-3">Field (Outdoor)</span>
+                  <span className="text-muted">Локация</span>
+                  <span className="ms-3">Поле (Outdoor)</span>
                 </ListGroup.Item>
                 <ListGroup.Item>
-                  <span className="text-muted">Batches</span>
+                  <span className="text-muted">Партия</span>
                   <span className="ms-3">2</span>
                 </ListGroup.Item>
                 <ListGroup.Item>
-                  <span className="text-muted">Crop Variety</span>
+                  <span className="text-muted">Сбор урожая</span>
                   <span className="ms-3">1</span>
                 </ListGroup.Item>
                 <ListGroup.Item>
-                  <span className="text-muted">Reservoir</span>
-                  <span className="ms-3">River</span>
+                  <span className="text-muted">Источник воды</span>
+                  <span className="ms-3">Река</span>
                 </ListGroup.Item>
               </ListGroup>
             </Card.Body>
@@ -105,12 +105,12 @@ const ReservoirDetail: NextPage = () => {
           <Table responsive>
             <thead>
               <tr>
-                <th>Crop Variety</th>
-                <th>Batch ID</th>
-                <th>Seeding Date</th>
-                <th>Days Since Seeding</th>
-                <th>Quantity</th>
-                <th>Last Watering</th>
+                <th>Сбор урожая</th>
+                <th>Идентификатор партии </th>
+                <th>Дата посадки</th>
+                <th>Дней с момента посева</th>
+                <th>Количество </th>
+                <th>Последний полив</th>
               </tr>
             </thead>
             <tbody>
@@ -146,7 +146,7 @@ const ReservoirDetail: NextPage = () => {
         <Panel title="Notes" md={6} lg={6}>
           <>
             <InputGroup className="mb-3">
-              <Form.Control type="text" placeholder="Create a note" />
+              <Form.Control type="text" placeholder="Создайте заметку" />
               <Button variant="secondary">
                 <div className="d-flex align-items-center">
                   <FaPaperPlane />
@@ -175,7 +175,7 @@ const ReservoirDetail: NextPage = () => {
           <Table responsive>
             <thead>
               <tr>
-                <th className="w-75">Items</th>
+                <th className="w-75">Наименование</th>
                 <th>Category</th>
               </tr>
             </thead>
@@ -204,7 +204,7 @@ const ReservoirDetail: NextPage = () => {
         </Panel>
       </Row>
       <ModalContainer
-        title="Area: Add New Task on Organic Lettuce"
+        title="Область: Добавить новую задачу по органическому салату"
         isShow={modalOpen}
         handleCloseModal={closeModal}
         handleSubmitModal={addTaskReservoir}
