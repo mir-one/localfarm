@@ -158,7 +158,7 @@ aside#aside {
     margin-bottom: 30px;
 
     img {
-      width: 100px;
+      width: 200px;
     }
   }
 }
