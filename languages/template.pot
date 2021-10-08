@@ -985,7 +985,7 @@ msgid "Yes"
 msgstr ""
 
 #: resources/js/pages/home.vue:13
-msgid "You are using LocalFarm 1.7 right now"
+msgid "You are using LocalFarm 1.0 right now"
 msgstr ""
 
 #: resources/js/pages/auth/login.vue:37
