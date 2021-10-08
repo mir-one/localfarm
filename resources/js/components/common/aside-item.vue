@@ -48,7 +48,7 @@ i {
 @media (max-width: 767.98px) {
   .nav-item {
     .nav-link {
-      color: #513969;
+      color: #22272e;
     }
   }
 }
