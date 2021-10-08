@@ -3,7 +3,7 @@ export default {
   name: '',
   plant_type: '',
   price_per_unit: '',
-  currency_code: 'EUR',
+  currency_code: 'RUB',
   quantity: '',
   quantity_unit: '',
   expiration_date: '',
