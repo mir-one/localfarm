@@ -1,7 +1,7 @@
 <template lang="pug">
   footer#footer(role="footer")
     .wrapper
-      | LocalFarm 1.7.0.
+      | LocalFarm 1.0.0.
       |
       translate Made for the &#9829; of plants &copy; 2019 Copyright.
 </template>
