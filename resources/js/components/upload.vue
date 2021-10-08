@@ -12,7 +12,7 @@ export default {
   name: 'UploadComponent',
   data() {
     return {
-      filename: 'No file chosen',
+      filename: 'Не выбрано файлов',
     };
   },
   methods: {

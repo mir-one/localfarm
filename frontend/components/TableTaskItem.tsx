@@ -32,7 +32,7 @@ const TableTaskItem = ({
             className="lh-lg pe-auto text-black text-decoration-none"
             style={{ cursor: "pointer" }}
           >
-            Read Details
+            Читать подробности
             <FaChevronDown className="ms-1" />
           </a>
         </small>
@@ -41,9 +41,9 @@ const TableTaskItem = ({
         </Collapse>
       </div>
       <small className="text-muted">
-        {`Due date: ${dueDate}`}
+        {`Срок оплаты: ${dueDate}`}
         <br />
-        {"Priority: "}
+        {"Приоритет: "}
         <span className="text-uppercase">{priority}</span>
       </small>
     </>

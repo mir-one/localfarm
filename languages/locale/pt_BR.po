@@ -1002,14 +1002,14 @@ msgstr "Sim"
 
 #: resources/js/pages/home.vue:13
 #, fuzzy
-msgid "You are using LocalFarm 1.7 right now"
-msgstr "Você está usando LocalFarm 1.6 nesse momento."
+msgid "You are using LocalFarm 1.0 right now"
+msgstr "Você está usando LocalFarm 1.0 nesse momento."
 
 #: resources/js/pages/auth/login.vue:37
 msgid "Your password here"
 msgstr ""
 
-#~ msgid "&euro;"
+#~ msgid "&rub;"
 #~ msgstr "R$"
 
 #~ msgid "All Growing Batches on This Farm"

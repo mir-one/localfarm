@@ -507,7 +507,7 @@ const CropDetail: NextPage = () => {
             <Form.Label>
               Photo description
               <br />
-              <small className="text-muted">(max. 200 char)</small>
+              <small className="text-muted">(макс. 200 символов)</small>
             </Form.Label>
             <Form.Control
               as="textarea"

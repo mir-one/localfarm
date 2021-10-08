@@ -20,7 +20,7 @@ const Dashboard: NextPage = () => {
           title="At A Glance"
           md={6}
           lg={6}
-          footer="You are using LocalFarm 1.7 right now"
+          footer="You are using LocalFarm 1.0 right now"
         >
           <Nav className="flex-column">
             {dashboardData.map(({ name, route, icon }) => (

@@ -24,10 +24,7 @@ type Material struct {
 }
 
 const (
-	MoneyBTC = "BTC"
-	MoneyRUB = "RUB"
-	MoneyUSD = "USD"
-	MoneyRUB = "EUR"
+	MoneyEUR = "EUR"
 )
 
 type PricePerUnit struct {
@@ -37,34 +34,7 @@ type PricePerUnit struct {
 
 func (p PricePerUnit) Symbol() string {
 	switch p.CurrencyCode {
-	case MoneyBTC:
-		return "₿"
-	default:
-		return ""
-	}
-}
-
-func (p PricePerUnit) Symbol() string {
-	switch p.CurrencyCode {
-	case MoneyRUB:
-		return "₽"
-	default:
-		return ""
-	}
-}
-
-func (p PricePerUnit) Symbol() string {
-	switch p.CurrencyCode {
-	case MoneyUSD:
-		return "$"
-	default:
-		return ""
-	}
-}
-
-func (p PricePerUnit) Symbol() string {
-	switch p.CurrencyCode {
-	case MoneyRUB:
+	case MoneyEUR:
 		return "€"
 	default:
 		return ""
@@ -85,8 +55,8 @@ func CreatePricePerUnit(amount, currencyCode string) (PricePerUnit, error) {
 
 func GetCurrencyCode(currencyCode string) (string, error) {
 	switch currencyCode {
-	case MoneyRUB:
-		return MoneyRUB, nil
+	case MoneyEUR:
+		return MoneyEUR, nil
 	default:
 		return "", errors.New("wrong currency code")
 	}
