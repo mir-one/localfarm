@@ -24,7 +24,7 @@ type Material struct {
 }
 
 const (
-	MoneyRUB = "RUB"
+	MoneyEUR = "EUR"
 )
 
 type PricePerUnit struct {
@@ -34,8 +34,8 @@ type PricePerUnit struct {
 
 func (p PricePerUnit) Symbol() string {
 	switch p.CurrencyCode {
-	case MoneyRUB:
-		return "₽"
+	case MoneyEUR:
+		return "€"
 	default:
 		return ""
 	}
