@@ -185,10 +185,10 @@
 									"value": "10"
 								},
 								{
-									"description": "required. options: EUR",
+									"description": "required. options: RUB",
 									"key": "currency_code",
 									"type": "text",
-									"value": "EUR"
+									"value": "RUB"
 								},
 								{
 									"description": "required. float.",
@@ -291,10 +291,10 @@
 									"value": "10"
 								},
 								{
-									"description": "required. options: EUR",
+									"description": "required. options: RUB",
 									"key": "currency_code",
 									"type": "text",
-									"value": "EUR"
+									"value": "RUB"
 								},
 								{
 									"description": "required. float.",
@@ -391,10 +391,10 @@
 									"value": "10"
 								},
 								{
-									"description": "required. options: EUR.",
+									"description": "required. options: RUB.",
 									"key": "currency_code",
 									"type": "text",
-									"value": "EUR"
+									"value": "RUB"
 								},
 								{
 									"description": "required. float.",
@@ -485,10 +485,10 @@
 									"value": "10"
 								},
 								{
-									"description": "required. options: EUR",
+									"description": "required. options: RUB",
 									"key": "currency_code",
 									"type": "text",
-									"value": "EUR"
+									"value": "RUB"
 								},
 								{
 									"description": "required. float.",
@@ -580,8 +580,8 @@
 								},
 								{
 									"key": "currency_code",
-									"value": "EUR",
-									"description": "required. options: EUR",
+									"value": "RUB",
+									"description": "required. options: RUB",
 									"type": "text"
 								},
 								{
@@ -686,8 +686,8 @@
 								},
 								{
 									"key": "currency_code",
-									"value": "EUR",
-									"description": "required. options: EUR",
+									"value": "RUB",
+									"description": "required. options: RUB",
 									"type": "text"
 								},
 								{
@@ -786,8 +786,8 @@
 								},
 								{
 									"key": "currency_code",
-									"value": "EUR",
-									"description": "required. options: EUR",
+									"value": "RUB",
+									"description": "required. options: RUB",
 									"type": "text"
 								},
 								{
@@ -886,8 +886,8 @@
 								},
 								{
 									"key": "currency_code",
-									"value": "EUR",
-									"description": "required. options: EUR",
+									"value": "RUB",
+									"description": "required. options: RUB",
 									"type": "text"
 								},
 								{
@@ -988,10 +988,10 @@
 									"value": "15"
 								},
 								{
-									"description": "optional. options: EUR\nrequired if `price_per_unit` is not empty",
+									"description": "optional. options: RUB\nrequired if `price_per_unit` is not empty",
 									"key": "currency_code",
 									"type": "text",
-									"value": "EUR"
+									"value": "RUB"
 								},
 								{
 									"description": "optional. float.\nrequired if `quantity_unit` is not empty\n",
@@ -1089,10 +1089,10 @@
 									"value": "20"
 								},
 								{
-									"description": "optional. options: EUR.\nrequired if `price_per_unit` is not empty",
+									"description": "optional. options: RUB.\nrequired if `price_per_unit` is not empty",
 									"key": "currency_code",
 									"type": "text",
-									"value": "EUR"
+									"value": "RUB"
 								},
 								{
 									"description": "optional. float.\nrequired if `quantity_unit` is not empty",
@@ -1190,10 +1190,10 @@
 									"value": "20"
 								},
 								{
-									"description": "optional. options: EUR.\nrequired if `price_per_unit` is not empty",
+									"description": "optional. options: RUB.\nrequired if `price_per_unit` is not empty",
 									"key": "currency_code",
 									"type": "text",
-									"value": "EUR"
+									"value": "RUB"
 								},
 								{
 									"description": "optional. float.\nrequired if `quantity_unit` is not empty",
@@ -1282,10 +1282,10 @@
 									"value": "20"
 								},
 								{
-									"description": "optional. options: EUR\nrequired if `price_per_unit` is not empty",
+									"description": "optional. options: RUB\nrequired if `price_per_unit` is not empty",
 									"key": "currency_code",
 									"type": "text",
-									"value": "EUR"
+									"value": "RUB"
 								},
 								{
 									"description": "optional. float.\nrequired if `quantity_unit` is not empty",
@@ -1374,10 +1374,10 @@
 									"value": "20"
 								},
 								{
-									"description": "optional. options: EUR.\nrequired if `price_per_unit` is not empty",
+									"description": "optional. options: RUB.\nrequired if `price_per_unit` is not empty",
 									"key": "currency_code",
 									"type": "text",
-									"value": "EUR"
+									"value": "RUB"
 								},
 								{
 									"description": "optional. float.\nrequired if `quantity_unit` is not empty",
@@ -1481,10 +1481,10 @@
 									"value": "20"
 								},
 								{
-									"description": "optional. options: EUR.\nrequired if `price_per_unit` is not empty",
+									"description": "optional. options: RUB.\nrequired if `price_per_unit` is not empty",
 									"key": "currency_code",
 									"type": "text",
-									"value": "EUR"
+									"value": "RUB"
 								},
 								{
 									"description": "optional. float.\nrequired if `quantity_unit` is not empty",
@@ -1579,10 +1579,10 @@
 									"value": "20"
 								},
 								{
-									"description": "optional. options: EUR.\nrequired if `price_per_unit` is not empty",
+									"description": "optional. options: RUB.\nrequired if `price_per_unit` is not empty",
 									"key": "currency_code",
 									"type": "text",
-									"value": "EUR"
+									"value": "RUB"
 								},
 								{
 									"description": "optional. float.\nrequired if `quantity_unit` is not empty",
@@ -1680,10 +1680,10 @@
 									"value": "20"
 								},
 								{
-									"description": "optional. options: EUR.\nrequired if `price_per_unit` is not empty",
+									"description": "optional. options: RUB.\nrequired if `price_per_unit` is not empty",
 									"key": "currency_code",
 									"type": "text",
-									"value": "EUR"
+									"value": "RUB"
 								},
 								{
 									"description": "optional. float.\nrequired if `quantity_unit` is not empty",
