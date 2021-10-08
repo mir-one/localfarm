@@ -3,19 +3,19 @@
 # This file is distributed under the same license as the LocalFarm package.
 # Asep Bagja Priandana <asep.bagja.p@gmail.com>, 2019.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.6.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-19 13:44+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-10-08 14:08+0300\n"
 "Language: en_GB\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.4\n"
 
 #: resources/js/pages/inventories/materials-form-agrochemical.vue:25
 #: resources/js/pages/inventories/materials-form-growingmedium.vue:35
@@ -25,20 +25,20 @@ msgstr ""
 #: resources/js/pages/inventories/materials-form-potharvest.vue:27
 #: resources/js/pages/inventories/materials-form-seed.vue:53
 #: resources/js/pages/inventories/materials-form-seedcontainer.vue:29
-msgid "&euro;"
-msgstr "&euro"
+msgid "&rub;"
+msgstr "&руб;"
 
 #: resources/js/components/aside.vue:48
 msgid "Account"
-msgstr "Account"
+msgstr "Аккаунт"
 
 #: resources/js/pages/settings/account.vue:5
 msgid "Account Settings"
-msgstr "Account Settings"
+msgstr "Настройки"
 
 #: resources/js/pages/farms/crop.vue:128
 msgid "Activity"
-msgstr "Activity"
+msgstr "Активность"
 
 #: resources/js/pages/farms/crops-form.vue:5
 #: resources/js/pages/farms/crops.vue:35
@@ -72,15 +72,15 @@ msgstr "Add New Task"
 
 #: resources/js/pages/farms/tasks/task-form.vue:8
 msgid "Add New Task on"
-msgstr "Add New Task on"
+msgstr "Добавить новую задачу для"
 
 #: resources/js/pages/farms/crop-notes.vue:48
 msgid "Add Notes"
-msgstr "Add Notes"
+msgstr "Добавить заметку"
 
 #: resources/js/pages/farms/reservoirs.vue:7
 msgid "Add Reservoir"
-msgstr "Add Reservoir"
+msgstr "Добавить емкость"
 
 #: resources/js/pages/farms/area.vue:11
 #: resources/js/pages/farms/crop-notes.vue:31
@@ -499,7 +499,7 @@ msgstr "Login"
 
 #: resources/js/components/footer.vue:6
 msgid "Made for the &#9829; of plants &copy; 2019 Copyright."
-msgstr "Made for the &#9829; of plants &copy; 2019 Copyright."
+msgstr "Сделано с &#9829; к Миру &copy;."
 
 #: resources/js/pages/inventories/materials-form.vue:8
 msgid "Material is a consumable product using in your farm such as seeds, growing medium, fertilizer, pesticide, and so on."
@@ -513,11 +513,11 @@ msgstr "Materials"
 #: resources/js/pages/farms/activities/move-crop-task.vue:4
 #: resources/js/pages/farms/crop.vue:63
 msgid "Move"
-msgstr "Move"
+msgstr "Переместить"
 
 #: resources/js/pages/farms/crop.vue:137
 msgid "Moved"
-msgstr "Moved"
+msgstr "Перемещено"
 
 #: resources/js/pages/farms/reservoirs.vue:18
 #: resources/js/pages/inventories/materials-form-agrochemical.vue:6
@@ -528,7 +528,7 @@ msgstr "Moved"
 #: resources/js/pages/inventories/materials-form-seedcontainer.vue:8
 #: resources/js/pages/inventories/materials.vue:21
 msgid "Name"
-msgstr "Name"
+msgstr "Имя"
 
 #: resources/js/pages/farms/tasks/crop-task-form.vue:33
 #: resources/js/pages/farms/tasks/task-form.vue:42
@@ -574,7 +574,7 @@ msgstr "Nutrient"
 
 #: resources/js/pages/farms/tasks/task-label.vue:12
 msgid "NUTRIENT"
-msgstr "NUTRIENT"
+msgstr "ПИТАТЕЛЬНОЕ ВЕЩЕСТВО"
 
 #: resources/js/pages/farms/crop.vue:152 resources/js/pages/farms/crop.vue:191
 msgid "of"
@@ -587,11 +587,11 @@ msgstr "of"
 #: resources/js/pages/farms/tasks/crop-task-form.vue:109
 #: resources/js/pages/farms/tasks/task-form.vue:85
 msgid "OK"
-msgstr "OK"
+msgstr "ХОРОШО"
 
 #: resources/js/pages/settings/account.vue:21
 msgid "Old Password"
-msgstr "Old Password"
+msgstr "Старый пароль"
 
 #: resources/js/pages/farms/crop.vue:104 resources/js/pages/farms/crop.vue:110
 #: resources/js/pages/farms/crop.vue:115 resources/js/pages/farms/crop.vue:153
@@ -988,7 +988,7 @@ msgstr "Variety Name"
 
 #: resources/js/pages/farms/tasks/task-label.vue:9
 msgid "WATER"
-msgstr "WATER"
+msgstr "ВОДА"
 
 #: resources/js/pages/farms/reservoirs.vue:9
 msgid "Water Reservoir"
@@ -1014,7 +1014,7 @@ msgstr "Which crop do you want to water?"
 #: resources/js/pages/farms/tasks/crop-task-form.vue:27
 #: resources/js/pages/farms/tasks/task-form.vue:36
 msgid "Yes"
-msgstr "Yes"
+msgstr "Да"
 
 #: resources/js/pages/home.vue:41
 msgid "What is On Production"
