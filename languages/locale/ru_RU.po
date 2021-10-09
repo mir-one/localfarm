@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: 1.6.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-19 13:44+0800\n"
-"PO-Revision-Date: 2021-10-08 15:26+0300\n"
+"PO-Revision-Date: 2021-10-08 22:05+0300\n"
 "Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -87,7 +87,7 @@ msgstr "Добавить емкость"
 #: resources/js/pages/farms/reservoir.vue:7
 #: resources/js/pages/tasks/task.vue:26
 msgid "Add Task"
-msgstr "Add Task"
+msgstr "Добавить задачу"
 
 #: resources/js/pages/inventories/materials-form-agrochemical.vue:70
 #: resources/js/pages/inventories/materials-form-growingmedium.vue:49
@@ -99,23 +99,23 @@ msgstr "Add Task"
 #: resources/js/pages/inventories/materials-form-seedcontainer.vue:54
 #: resources/js/pages/inventories/materials.vue:33
 msgid "Additional Notes"
-msgstr "Additional Notes"
+msgstr "Примечание"
 
 #: resources/js/pages/farms/activities/harvest-crop-task.vue:31
 #: resources/js/pages/farms/crop.vue:189
 #: resources/js/pages/farms/tasks/water-task.vue:13
 #: resources/js/pages/tasks/task.vue:53 resources/js/pages/tasks/task.vue:80
 msgid "All"
-msgstr "All"
+msgstr "Все"
 
 #: resources/js/pages/farms/crops.vue:34
 msgid "All Growing Batches on This Farm"
-msgstr "All Growing Batches on This Farm"
+msgstr "Все производимые растения на этой ферме"
 
 #: resources/js/pages/farms/crop.vue:217 resources/js/pages/farms/crop.vue:250
 #: resources/js/pages/farms/tasks/task-list.vue:57
 msgid "Apply"
-msgstr "Apply"
+msgstr "Принять"
 
 #: resources/js/pages/farms/crops.vue:29
 msgid "Archives"
@@ -224,18 +224,18 @@ msgstr "Отменить"
 #: resources/js/pages/farms/crops-form.vue:82
 #: resources/js/pages/farms/reservoirs-form.vue:35
 msgid "CANCEL"
-msgstr "ОТМЕНЕНО"
+msgstr "ОТМЕНИТЬ"
 
 #: resources/js/pages/farms/reservoir.vue:23
 #: resources/js/pages/farms/reservoirs.vue:27
 msgid "Capacity"
-msgstr "Capacity"
+msgstr "Емкость"
 
 #: resources/js/pages/farms/tasks/task-list.vue:11
 #: resources/js/pages/inventories/materials.vue:18
 #: resources/js/pages/tasks/task.vue:47
 msgid "Category"
-msgstr "Category"
+msgstr "Категория"
 
 #: resources/js/pages/inventories/materials-form-agrochemical.vue:14
 msgid "Chemical Type"
@@ -271,7 +271,7 @@ msgstr "Город"
 
 #: resources/js/components/more-detail.vue:5
 msgid "Close details"
-msgstr "Close details"
+msgstr "Закрыть"
 
 #: resources/js/pages/tasks/task.vue:97
 msgid "Completed"
@@ -339,21 +339,21 @@ msgstr "Dashboard"
 
 #: resources/js/pages/farms/crops-listing.vue:15
 msgid "Days Since Seeding"
-msgstr "Days Since Seeding"
+msgstr "Дней с момента посадки"
 
 #: resources/js/pages/farms/activities/upload-crop-task.vue:15
 msgid "Describe a bit about this photo"
-msgstr "Describe a bit about this photo"
+msgstr "Расскажите немного об этой фотографии"
 
 #: resources/js/pages/farms/tasks/crop-task-form.vue:103
 #: resources/js/pages/farms/tasks/task-form.vue:79
 msgid "Description"
-msgstr "Description"
+msgstr "Описание"
 
 #: resources/js/pages/farms/tasks/crop-task-form.vue:11
 #: resources/js/pages/farms/tasks/task-form.vue:20
 msgid "Due Date"
-msgstr "Due Date"
+msgstr "Срок оплаты"
 
 #: resources/js/pages/farms/activities/dump-crop-task.vue:4
 #: resources/js/pages/farms/crop.vue:56
@@ -381,7 +381,7 @@ msgstr "Имя фермы"
 
 #: resources/js/pages/farms/create.vue:30 resources/js/pages/intro/farm.vue:28
 msgid "Farm Type"
-msgstr "Farm Type"
+msgstr "Тип фермы"
 
 #: resources/js/pages/farms/tasks/task-label.vue:7
 msgid "FINANCE"
@@ -433,7 +433,7 @@ msgstr "Hello! Can you tell me a little <br> about your farm?"
 
 #: resources/js/pages/farms/create.vue:5
 msgid "Home"
-msgstr "Home"
+msgstr "Главная"
 
 #: resources/js/pages/farms/activities/move-crop-task.vue:31
 msgid "How many plants do you want to move?"
@@ -449,28 +449,28 @@ msgstr "Incomplete"
 
 #: resources/js/pages/farms/crop.vue:100
 msgid "Initial Planting"
-msgstr "Initial Planting"
+msgstr "Первоначальная посадка"
 
 #: resources/js/pages/farms/crops-listing.vue:21
 msgid "Initial Quantity"
-msgstr "Initial Quantity"
+msgstr "Начальное количество"
 
 #: resources/js/components/aside.vue:34
 msgid "Inventories"
-msgstr "Inventories"
+msgstr "Запасы"
 
 #: resources/js/pages/farms/tasks/task-form.vue:67
 msgid "Inventory"
-msgstr "Inventory"
+msgstr "Запас"
 
 #: resources/js/pages/farms/tasks/task-label.vue:10
 msgid "INVENTORY"
-msgstr "INVENTORY"
+msgstr "ЗАПАС"
 
 #: resources/js/pages/farms/tasks/crop-task-form.vue:22
 #: resources/js/pages/farms/tasks/task-form.vue:31
 msgid "Is this task urgent?"
-msgstr "Is this task urgent?"
+msgstr "Эта задача актуальна?"
 
 #: resources/js/pages/farms/tasks/task-list.vue:8
 msgid "Items"
@@ -483,7 +483,7 @@ msgstr "Килограмм"
 #: resources/js/pages/farms/crop.vue:84
 #: resources/js/pages/farms/crops-listing.vue:27
 msgid "Last Watering"
-msgstr "Last Watering"
+msgstr "Последний полив"
 
 #: resources/js/components/mapbox.vue:5 resources/js/pages/farms/area.vue:26
 msgid "Location"
@@ -503,7 +503,7 @@ msgstr "Сделано с &#9829; к Миру &copy;."
 
 #: resources/js/pages/inventories/materials-form.vue:8
 msgid "Material is a consumable product using in your farm such as seeds, growing medium, fertilizer, pesticide, and so on."
-msgstr "Material is a consumable product using in your farm such as seeds, growing medium, fertilizer, pesticide, and so on."
+msgstr "Материал - это расходный продукт, используемый на вашей ферме, такой как семена, питательная среда, удобрения, пестициды и т.д."
 
 #: resources/js/components/aside.vue:39
 #: resources/js/pages/inventories/materials.vue:9
@@ -736,11 +736,11 @@ msgstr "Произведено"
 #: resources/js/pages/inventories/materials-form-seedcontainer.vue:35
 #: resources/js/pages/inventories/materials.vue:30
 msgid "Quantity"
-msgstr "Quantity"
+msgstr "Количество"
 
 #: resources/js/components/more-detail.vue:6
 msgid "Read details"
-msgstr "Read details"
+msgstr "Подробности"
 
 #: resources/js/pages/farms/area.vue:32
 #: resources/js/pages/farms/tasks/task-form.vue:60
@@ -771,7 +771,7 @@ msgstr "SAFETY"
 
 #: resources/js/pages/farms/tasks/task-label.vue:3
 msgid "SANITATION"
-msgstr "SANITATION"
+msgstr "ВОДОПРОВОД"
 
 #: resources/js/pages/inventories/materials-form-agrochemical.vue:76
 #: resources/js/pages/inventories/materials-form-growingmedium.vue:55
@@ -782,14 +782,14 @@ msgstr "SANITATION"
 #: resources/js/pages/inventories/materials-form-seed.vue:76
 #: resources/js/pages/inventories/materials-form-seedcontainer.vue:62
 msgid "Save"
-msgstr "Save"
+msgstr "Сохранить"
 
 #: resources/js/pages/farms/crops-form.vue:79
 #: resources/js/pages/farms/reservoirs-form.vue:32
 #: resources/js/pages/farms/tasks/water-task.vue:33
 #: resources/js/pages/settings/account.vue:39
 msgid "SAVE"
-msgstr "SAVE"
+msgstr "СОХРАНИТЬ"
 
 #: resources/js/pages/home.vue:53
 msgid "See all Crops"
