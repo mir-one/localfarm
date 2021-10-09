@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: 1.6.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-03-19 13:44+0800\n"
-"PO-Revision-Date: 2021-10-08 22:05+0300\n"
+"PO-Revision-Date: 2021-10-09 12:41+0300\n"
 "Language: ru_RU\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Last-Translator: Роман Иноземцев <rinozemtsev@mir.one>\n"
-"Language-Team: \n"
-"X-Generator: Poedit 2.2.4\n"
+"Language-Team: Роман Иноземцев\n"
+"X-Generator: Poedit 3.0\n"
 
 #: resources/js/pages/inventories/materials-form-agrochemical.vue:25
 #: resources/js/pages/inventories/materials-form-growingmedium.vue:35
@@ -51,11 +51,11 @@ msgstr "Add Area"
 
 #: resources/js/pages/inventories/materials.vue:7
 msgid "Add Material"
-msgstr "Add Material"
+msgstr "Добавить расходный материал"
 
 #: resources/js/pages/inventories/materials-form.vue:5
 msgid "Add Material to Inventory"
-msgstr "Add Material to Inventory"
+msgstr "Добавить расходный материал в инвентарь"
 
 #: resources/js/pages/farms/areas-form.vue:5
 #: resources/js/pages/intro/area.vue:11
@@ -185,7 +185,7 @@ msgstr "Basic Info"
 
 #: resources/js/pages/farms/crops.vue:27
 msgid "Batch"
-msgstr "Batch"
+msgstr "Партия"
 
 #: resources/js/pages/farms/crops-listing.vue:9
 msgid "Batch ID"
@@ -259,7 +259,7 @@ msgstr "Choose type of harvesting"
 
 #: resources/js/pages/inventories/materials-form.vue:14
 msgid "Choose type of material"
-msgstr "Choose type of material"
+msgstr "Выберите тип расходного материала"
 
 #: resources/js/pages/farms/tasks/water-task.vue:9
 msgid "Choose type of watering"
