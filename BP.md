@@ -1,6 +1,8 @@
 # Локальная Ферма микрозелени в Даниловском рынке
-----
 
+[![Build Status](https://img.shields.io/badge/mir.one-localfarm-green)](https://img.shields.io/badge/mir.one-localfarm-green) [![Build Status](https://img.shields.io/badge/microgreen-0.0.1-brightgreen)](https://img.shields.io/badge/microgreen-0.0.1-brightgreen) 
+
+----
 1. [Краткий обзор (резюме) проекта](#КРАТКИЙ-ОБЗОР-(РЕЗЮМЕ)-ПРОЕКТА)
 2. [Инициатор проекта](#Инициатор-проекта)
 3. [Существо предлагаемого проекта](#Существо-предлагаемого-проекта)
